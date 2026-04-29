@@ -1,0 +1,18 @@
+{
+  "name": "com.zyxialing.zframework",
+  "displayName": "ZFramework",
+  "version": "1.0.1",
+  "unity": "2019.3",
+  "keywords": [
+    "unity",
+    "animation",
+    "editor",
+    "timeline",
+    "tools"
+  ],
+  "description": "1.Game Factory Framework\n2.You need to put the plug-ins in ZFramework/Zips into Assets/Third",
+  "dependencies": {
+    "com.unity.addressables": "1.16.19"
+  },
+  "type": "sample"
+}
