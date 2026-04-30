@@ -14,7 +14,7 @@ public class AIColliderEditor : Editor
 
         serializedObject.Update();
 
-        // ? ±éÀúËùÓĞ×Ö¶Î
+        // ? éå†æ‰€æœ‰å­—æ®µ
         SerializedProperty prop = serializedObject.GetIterator();
 
         bool enterChildren = true;
@@ -49,7 +49,7 @@ public class AIColliderEditor : Editor
 
         GUILayout.Space(10);
 
-        // ? Ö»ÔÚ±à¼­Ê±ÏÔÊ¾¶ÔÓ¦²ÎÊı
+        // ? åªåœ¨ç¼–è¾‘æ—¶æ˜¾ç¤ºå¯¹åº”å‚æ•°
         if (col.editSky)
         {
             DrawVector2("Sky Offset", ref col.skyOffset);
@@ -72,7 +72,7 @@ public class AIColliderEditor : Editor
             DrawVector2("Attack Offset", ref col.attackRangeBox.offset);
             DrawVector2("Attack Size", ref col.attackRangeBox.size);
         }
-        // ? ? ¾ÍÔÚÕâÀï
+        // ? ? å°±åœ¨è¿™é‡Œ
         if (col.editAttack)
         {
             col.attackLine = EditorGUILayout.FloatField("Attack Line", col.attackLine);
@@ -109,10 +109,10 @@ public class AIColliderEditor : Editor
     {
         AICollider col = (AICollider)target;
 
-        // ? Ã»¿ªÈÎºÎ±à¼­¾Í²»»­
+        // ? æ²¡å¼€ä»»ä½•ç¼–è¾‘å°±ä¸ç”»
         if (!col.editSky && !col.editBody && !col.editGround) return;
 
-        // ? ·ÀÎó²Ù×÷
+        // ? é˜²è¯¯æ“ä½œ
         Tools.current = Tool.None;
 
         Transform tf = col.transform;
@@ -154,7 +154,7 @@ public class AIColliderEditor : Editor
                 center = vectorG2 + new Vector2(-emX / 2, emY / 2f);
             }
 
-            // ? ×ª³É offset£¨ÒòÎªÄãµÄ DrawHandle ÓÃµÄÊÇ offset£©
+            // ? è½¬æˆ offsetï¼ˆå› ä¸ºä½ çš„ DrawHandle ç”¨çš„æ˜¯ offsetï¼‰
             Vector2 offset = center - (Vector2)col.transform.position;
             Vector2 size = new Vector2(emX, emY);
 
@@ -164,7 +164,7 @@ public class AIColliderEditor : Editor
                 Color.red,
                 (o, s) =>
                 {
-                    // ? ÕâÀïÔİÊ±²»»ØĞ´£¨ÒòÎªÄãattackÊÇ¼ÆËãµÄ£©
+                    // ? è¿™é‡Œæš‚æ—¶ä¸å›å†™ï¼ˆå› ä¸ºä½ attackæ˜¯è®¡ç®—çš„ï¼‰
                 });
         }
     }
@@ -185,10 +185,18 @@ public class AIColliderEditor : Editor
 
             EditorGUI.BeginChangeCheck();
 
-            // ºĞ×Ó£¨Ëõ·Å£©
+            // ç›’å­ï¼ˆç¼©æ”¾ï¼‰
             handle.DrawHandle();
 
-            // ÖĞĞÄµãÍÏ¶¯£¨ÎŞ¼ıÍ·£©
+            // ä¸­å¿ƒç‚¹æ‹–åŠ¨ï¼ˆæ— ç®­å¤´ï¼‰
+#if UNITY_2022_1_OR_NEWER
+            Vector3 newCenter = Handles.FreeMoveHandle(
+                handle.center,
+                0.08f,
+                Vector3.zero,
+                Handles.DotHandleCap
+            );
+#else
             Vector3 newCenter = Handles.FreeMoveHandle(
                 handle.center,
                 Quaternion.identity,
@@ -196,6 +204,7 @@ public class AIColliderEditor : Editor
                 Vector3.zero,
                 Handles.DotHandleCap
             );
+#endif
 
             if (EditorGUI.EndChangeCheck())
             {
