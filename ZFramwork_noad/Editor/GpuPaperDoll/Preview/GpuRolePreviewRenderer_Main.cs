@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
@@ -11,7 +12,12 @@ public class GpuRolePreviewRenderer_Main
     private PreviewRenderUtility _previewUtil;
     private GameObject _rootObject;
     private List<SpriteRenderer> _renderers = new List<SpriteRenderer>();
-    private bool _dirty;
+    // slotKey → SpriteRenderer 映射，用于 slotKey 安全匹配
+    private Dictionary<string, SpriteRenderer> _rendererBySlotKey = new Dictionary<string, SpriteRenderer>();
+
+        // 记录初始 bounds，动画播放时相机不跟着动
+    private Bounds _initialBounds;
+    private bool _hasInitialBounds;
 
     public bool IsValid => _previewUtil != null && _rootObject != null;
 
@@ -32,7 +38,6 @@ public class GpuRolePreviewRenderer_Main
 
         _rootObject = new GameObject("Preview_Root");
         _rootObject.hideFlags = HideFlags.HideAndDontSave;
-        // 根节点保持单位变换，所有子节点用 bindPoseToRoot 计算绝对位置
         _rootObject.transform.localPosition = Vector3.zero;
         _rootObject.transform.localRotation = Quaternion.identity;
         _rootObject.transform.localScale = Vector3.one;
@@ -44,34 +49,29 @@ public class GpuRolePreviewRenderer_Main
             var slot = slotDefs[i];
             var style = styleSlots[i];
 
-            // 用 bindPoseToRoot 矩阵计算相对于根节点的位置和旋转
+            // 从 bindPoseToRoot 矩阵分解位置、旋转、缩放
             // bindPoseToRoot = root.worldToLocalMatrix * transform.localToWorldMatrix
-            // MultiplyPoint(Vector3.zero) 得到该节点在 root 空间下的位置
-            Vector3 pos = slot.bindPoseToRoot.MultiplyPoint(Vector3.zero);
-            // 用矩阵变换方向向量来获取在 root 空间下的旋转
-            // 取局部坐标轴方向，用 bindPoseToRoot 变换到 root 空间
-            Vector3 fwd = slot.bindPoseToRoot.MultiplyVector(Vector3.forward);
-            Vector3 up = slot.bindPoseToRoot.MultiplyVector(Vector3.up);
-            Quaternion rot = Quaternion.LookRotation(fwd, up);
+            Vector3 pos;
+            Quaternion rot;
+            Vector3 scale;
+            DecomposeMatrix(slot.bindPoseToRoot, out pos, out rot, out scale);
 
             GameObject go = new GameObject(slot.slotName);
             go.hideFlags = HideFlags.HideAndDontSave;
             go.transform.SetParent(_rootObject.transform, false);
             go.transform.localPosition = pos;
             go.transform.localRotation = rot;
-            go.transform.localScale = slot.localScale;
+            go.transform.localScale = scale;
 
-            var sr = go.AddComponent<SpriteRenderer>();
+                        var sr = go.AddComponent<SpriteRenderer>();
             sr.sortingLayerID = slot.sortingLayerId;
-            sr.sortingOrder = slot.sortingOrder;
-
-            // 节点是否在预制体中默认可见
-            bool defaultVisible = slot.activeInHierarchy && slot.rendererEnabled;
-            // VisibleInsideMask 的头发由头盔 sprite 裁切，预览中不显示
-            bool skipMasked = slot.maskInteraction == SpriteMaskInteraction.VisibleInsideMask;
-
-            // 应用样式：默认隐藏的节点即使有 sprite 也不显示
-            if (style.sprite != null && defaultVisible && !skipMasked)
+            // 直接使用预先计算的 internalOrder（数据阶段已算好：sortingOrder * InternalOrderStep + drawOrder）
+            // roleBaseOrder 用于角色整体世界排序，暂时为 0
+            sr.sortingOrder = slot.internalOrder;
+            Debug.Log(style.slotKey+":"+sr.sortingOrder);
+            // 应用样式
+            bool rendererEnabled = slot.rendererEnabled;
+            if (style.sprite != null && rendererEnabled)
             {
                 sr.sprite = style.sprite;
                 sr.color = style.color;
@@ -84,10 +84,16 @@ public class GpuRolePreviewRenderer_Main
             }
 
             _renderers.Add(sr);
+            // 按 slotKey 索引，用于 slotKey 安全匹配
+            if (!string.IsNullOrEmpty(slot.slotKey) && !_rendererBySlotKey.ContainsKey(slot.slotKey))
+                _rendererBySlotKey[slot.slotKey] = sr;
         }
 
         _previewUtil.AddSingleGO(_rootObject);
-        _dirty = false;
+
+        // 记录初始 bounds（动画播放时相机不跟着动）
+        _initialBounds = CalculateBounds();
+        _hasInitialBounds = true;
     }
 
     /// <summary>
@@ -96,6 +102,53 @@ public class GpuRolePreviewRenderer_Main
     public void ApplyStyle(List<GpuRoleSlot> slotDefs, List<GpuRoleStyleSlot> styleSlots)
     {
         ApplyStyle(slotDefs, styleSlots, -1);
+    }
+
+        /// <summary>
+    /// 应用动画帧数据到所有 SpriteRenderer 的变换（基于 slotKey 安全匹配）
+    /// </summary>
+    public void ApplyAnimationFrame(BakedFrameData frameData, List<BakedSlotData> slotKeys)
+    {
+        if (!IsValid || frameData == null || slotKeys == null) return;
+
+        int count = Mathf.Min(slotKeys.Count, frameData.positions.Count, frameData.rotations.Count, frameData.scales.Count);
+
+        for (int i = 0; i < count; i++)
+        {
+            string key = slotKeys[i].slotKey;
+            if (string.IsNullOrEmpty(key)) continue;
+
+            if (_rendererBySlotKey.TryGetValue(key, out var sr))
+            {
+                sr.transform.localPosition = frameData.positions[i];
+                sr.transform.localRotation = frameData.rotations[i];
+                sr.transform.localScale = frameData.scales[i];
+            }
+        }
+    }
+
+    /// <summary>
+    /// 按 BakeData.slotKeys 的顺序重新排列 _renderers 列表，确保绘制顺序与烘焙数据一致
+    /// </summary>
+    public void ReorderBySlotKeys(List<BakedSlotData> slotKeys)
+    {
+        if (!IsValid || slotKeys == null) return;
+
+        var newOrder = new List<SpriteRenderer>();
+        foreach (var slot in slotKeys)
+        {
+            if (!string.IsNullOrEmpty(slot.slotKey) && _rendererBySlotKey.TryGetValue(slot.slotKey, out var sr))
+            {
+                newOrder.Add(sr);
+            }
+        }
+        // 补上 slotKeys 中没有的 renderer（保持原顺序）
+        foreach (var sr in _renderers)
+        {
+            if (!newOrder.Contains(sr))
+                newOrder.Add(sr);
+        }
+        _renderers = newOrder;
     }
 
     /// <summary>
@@ -112,15 +165,12 @@ public class GpuRolePreviewRenderer_Main
             var slot = slotDefs[i];
             var style = styleSlots[i];
 
-            // 节点是否在预制体中默认可见
-            bool defaultVisible = slot.activeInHierarchy && slot.rendererEnabled;
-            // VisibleInsideMask 的头发由头盔 sprite 裁切，预览中不显示
-            bool skipMasked = slot.maskInteraction == SpriteMaskInteraction.VisibleInsideMask;
-            bool canShow = defaultVisible && !skipMasked;
+            bool rendererEnabled = slot.rendererEnabled;
+            bool canShow = rendererEnabled;
 
-            // groupId 过滤：指定组时只显示该组
             if (groupId >= 0)
             {
+                // 组预览模式：只显示该组的部件
                 if (style.linkedGroupId == groupId)
                 {
                     if (style.sprite != null && canShow)
@@ -155,7 +205,6 @@ public class GpuRolePreviewRenderer_Main
                 }
             }
         }
-        _dirty = false;
     }
 
     /// <summary>
@@ -165,7 +214,8 @@ public class GpuRolePreviewRenderer_Main
     {
         if (!IsValid) return null;
 
-        Bounds bounds = CalculateBounds();
+        // 使用初始 bounds，动画播放时相机不跟着角色位移跑
+        Bounds bounds = _hasInitialBounds ? _initialBounds : CalculateBounds();
         float aspect = Mathf.Max(0.1f, rect.width / Mathf.Max(1f, rect.height));
         float size = Mathf.Max(bounds.extents.y, bounds.extents.x / aspect, 0.5f);
         Vector3 center = bounds.center;
@@ -183,6 +233,8 @@ public class GpuRolePreviewRenderer_Main
     public void Cleanup()
     {
         _renderers.Clear();
+        _rendererBySlotKey.Clear();
+        _hasInitialBounds = false;
         if (_rootObject != null)
         {
             UnityEngine.Object.DestroyImmediate(_rootObject);
@@ -193,6 +245,11 @@ public class GpuRolePreviewRenderer_Main
             _previewUtil.Cleanup();
             _previewUtil = null;
         }
+    }
+
+        private void DecomposeMatrix(Matrix4x4 matrix, out Vector3 position, out Quaternion rotation, out Vector3 scale)
+    {
+        GpuRoleUtility.DecomposeMatrix(matrix, out position, out rotation, out scale);
     }
 
     private Bounds CalculateBounds()

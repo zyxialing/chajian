@@ -10,6 +10,8 @@ public class GpuRolePreviewRenderer
 {
     private GpuRolePreviewRenderer_Main _main;
     private Dictionary<int, GpuRolePreviewRenderer_Main> _groupPreviews = new Dictionary<int, GpuRolePreviewRenderer_Main>();
+    private Dictionary<int, Vector2> _groupPreviewDrags = new Dictionary<int, Vector2>(); // 修复 Bug 5：每个组独立拖拽
+
     public bool HasMainPreview => _main != null && _main.IsValid;
 
     public GpuRolePreviewRenderer()
@@ -37,13 +39,29 @@ public class GpuRolePreviewRenderer
             _main.ApplyStyle(slotDefs, styleSlots);
     }
 
-    /// <summary>
+        /// <summary>
     /// 渲染主预览
     /// </summary>
     public Texture RenderMainPreview(Rect rect, ref Vector2 drag)
     {
         return _main?.Render(rect, ref drag);
     }
+
+        /// <summary>
+        /// 应用动画帧到主预览（基于 slotKey 安全匹配）
+        /// </summary>
+        public void ApplyAnimationFrame(BakedFrameData frameData, List<BakedSlotData> slotKeys)
+        {
+            _main?.ApplyAnimationFrame(frameData, slotKeys);
+        }
+
+        /// <summary>
+        /// 按 BakeData.slotKeys 的顺序重新排列 renderer 列表
+        /// </summary>
+        public void ReorderBySlotKeys(List<BakedSlotData> slotKeys)
+        {
+            _main?.ReorderBySlotKeys(slotKeys);
+        }
 
     /// <summary>
     /// 组预览 — 每个组独立 PreviewRenderUtility，不跟主预览耦合
@@ -60,16 +78,23 @@ public class GpuRolePreviewRenderer
             groupMain.Build(slotDefs, styleSlots, rootPos, rootRot, rootScale);
             _groupPreviews[groupId] = groupMain;
         }
-        else
-        {
-            groupMain.ApplyStyle(slotDefs, styleSlots, groupId);
-        }
 
-        return groupMain.Render(rect, ref drag);
+        // 每次渲染前都应用样式，确保只显示该组的部件
+        groupMain.ApplyStyle(slotDefs, styleSlots, groupId);
+
+        // 每个组独立拖拽
+        if (!_groupPreviewDrags.ContainsKey(groupId))
+            _groupPreviewDrags[groupId] = Vector2.zero;
+
+        Vector2 groupDrag = _groupPreviewDrags[groupId];
+        Texture result = groupMain.Render(rect, ref groupDrag);
+        _groupPreviewDrags[groupId] = groupDrag;
+
+        return result;
     }
 
     /// <summary>
-    /// 标记组预览需要重建（下次 Render 时重新 Build）
+    /// 标记组预览需要重建
     /// </summary>
     public void MarkGroupPreviewDirty(int groupId)
     {
@@ -78,6 +103,7 @@ public class GpuRolePreviewRenderer
             groupMain.Cleanup();
             _groupPreviews.Remove(groupId);
         }
+        _groupPreviewDrags.Remove(groupId);
     }
 
     public void CleanupAll()
@@ -88,5 +114,6 @@ public class GpuRolePreviewRenderer
             kvp.Value.Cleanup();
         }
         _groupPreviews.Clear();
+        _groupPreviewDrags.Clear();
     }
 }
