@@ -1,0 +1,4176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6c5e6fa1e465314fabbdd8e2b530bc0, type: 3}
+  m_Name: UnitRoot_Ex22ortData
+  m_EditorClassIdentifier: 
+  prefabName: UnitRoot
+  atlases:
+  - name: atlas_0
+    texture: {fileID: 2800000, guid: 02b8ef071d2fdb549bc3d0b43e4e6578, type: 3}
+    width: 172
+    height: 512
+  spriteUVs:
+  - spriteId: 0
+    spriteName: Shadow
+    atlasIndex: 0
+    uMin: 0.0058139535
+    vMin: 0.001953125
+    uMax: 0.75
+    vMax: 0.25195312
+    originalWidth: 128
+    originalHeight: 128
+    cropX: 0
+    cropY: 0
+    cropW: 128
+    cropH: 128
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 1
+    spriteName: F_SR_Helmet
+    atlasIndex: 0
+    uMin: 0.0058139535
+    vMin: 0.25976562
+    uMax: 0.13953489
+    vMax: 0.31054688
+    originalWidth: 23
+    originalHeight: 26
+    cropX: 0
+    cropY: 0
+    cropW: 23
+    cropH: 26
+    pivotX: 0.54347825
+    pivotY: 0.42307693
+  - spriteId: 2
+    spriteName: Soon_Back1
+    atlasIndex: 0
+    uMin: 0.0058139535
+    vMin: 0.31835938
+    uMax: 0.16860466
+    vMax: 0.359375
+    originalWidth: 28
+    originalHeight: 21
+    cropX: 0
+    cropY: 0
+    cropW: 28
+    cropH: 21
+    pivotX: 0.5
+    pivotY: 0.54761904
+  - spriteId: 3
+    spriteName: New_weapon_02
+    atlasIndex: 0
+    uMin: 0.0058139535
+    vMin: 0.3671875
+    uMax: 0.09883721
+    vMax: 0.43164062
+    originalWidth: 32
+    originalHeight: 64
+    cropX: 8
+    cropY: 15
+    cropW: 16
+    cropH: 33
+    pivotX: 0.546875
+    pivotY: 0.328125
+  - spriteId: 4
+    spriteName: F_SR_Hammer
+    atlasIndex: 0
+    uMin: 0.0058139535
+    vMin: 0.43945312
+    uMax: 0.10465116
+    vMax: 0.49804688
+    originalWidth: 17
+    originalHeight: 30
+    cropX: 0
+    cropY: 0
+    cropW: 17
+    cropH: 30
+    pivotX: 0.61764705
+    pivotY: 0.23333332
+  - spriteId: 5
+    spriteName: Helmet_9
+    atlasIndex: 0
+    uMin: 0.1627907
+    vMin: 0.25976562
+    uMax: 0.29651162
+    vMax: 0.30078125
+    originalWidth: 23
+    originalHeight: 21
+    cropX: 0
+    cropY: 0
+    cropW: 23
+    cropH: 21
+    pivotX: 0.5
+    pivotY: 0.52380955
+  - spriteId: 6
+    spriteName: Hair_5
+    atlasIndex: 0
+    uMin: 0.12209302
+    vMin: 0.3671875
+    uMax: 0.24418604
+    vMax: 0.40820312
+    originalWidth: 21
+    originalHeight: 21
+    cropX: 0
+    cropY: 0
+    cropW: 21
+    cropH: 21
+    pivotX: 0.5
+    pivotY: 0.6666667
+  - spriteId: 7
+    spriteName: Helmet_4
+    atlasIndex: 0
+    uMin: 0.19186047
+    vMin: 0.30859375
+    uMax: 0.30813953
+    vMax: 0.34960938
+    originalWidth: 20
+    originalHeight: 21
+    cropX: 0
+    cropY: 0
+    cropW: 20
+    cropH: 21
+    pivotX: 0.525
+    pivotY: 0.5714286
+  - spriteId: 8
+    spriteName: Helmet_5
+    atlasIndex: 0
+    uMin: 0.31976745
+    vMin: 0.25976562
+    uMax: 0.44186047
+    vMax: 0.29882812
+    originalWidth: 21
+    originalHeight: 20
+    cropX: 0
+    cropY: 0
+    cropW: 21
+    cropH: 20
+    pivotX: 0.54761904
+    pivotY: 0.55
+  - spriteId: 9
+    spriteName: Helmet_8
+    atlasIndex: 0
+    uMin: 0.0058139535
+    vMin: 0.5058594
+    uMax: 0.12209302
+    vMax: 0.546875
+    originalWidth: 20
+    originalHeight: 21
+    cropX: 0
+    cropY: 0
+    cropW: 20
+    cropH: 21
+    pivotX: 0.475
+    pivotY: 0.52380955
+  - spriteId: 10
+    spriteName: Hair_8
+    atlasIndex: 0
+    uMin: 0.12790698
+    vMin: 0.41601562
+    uMax: 0.25581396
+    vMax: 0.453125
+    originalWidth: 29
+    originalHeight: 22
+    cropX: 4
+    cropY: 0
+    cropW: 22
+    cropH: 19
+    pivotX: 0.5
+    pivotY: 0.45454547
+  - spriteId: 11
+    spriteName: Hair_2
+    atlasIndex: 0
+    uMin: 0.12790698
+    vMin: 0.4609375
+    uMax: 0.2616279
+    vMax: 0.49609375
+    originalWidth: 30
+    originalHeight: 30
+    cropX: 3
+    cropY: 6
+    cropW: 23
+    cropH: 18
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 12
+    spriteName: Hair_6
+    atlasIndex: 0
+    uMin: 0.26744187
+    vMin: 0.35742188
+    uMax: 0.4011628
+    vMax: 0.39257812
+    originalWidth: 24
+    originalHeight: 18
+    cropX: 0
+    cropY: 0
+    cropW: 23
+    cropH: 18
+    pivotX: 0.5208333
+    pivotY: 0.44444445
+  - spriteId: 13
+    spriteName: Hair_3
+    atlasIndex: 0
+    uMin: 0.33139536
+    vMin: 0.30664062
+    uMax: 0.4360465
+    vMax: 0.34960938
+    originalWidth: 18
+    originalHeight: 22
+    cropX: 0
+    cropY: 0
+    cropW: 18
+    cropH: 22
+    pivotX: 0.5277778
+    pivotY: 0.6818182
+  - spriteId: 14
+    spriteName: New_Weapon_08
+    atlasIndex: 0
+    uMin: 0.27906978
+    vMin: 0.40039062
+    uMax: 0.37790698
+    vMax: 0.44335938
+    originalWidth: 32
+    originalHeight: 32
+    cropX: 8
+    cropY: 5
+    cropW: 17
+    cropH: 22
+    pivotX: 0.515625
+    pivotY: 0.265625
+  - spriteId: 15
+    spriteName: Helmet_2
+    atlasIndex: 0
+    uMin: 0.0058139535
+    vMin: 0.5546875
+    uMax: 0.12790698
+    vMax: 0.5878906
+    originalWidth: 21
+    originalHeight: 17
+    cropX: 0
+    cropY: 0
+    cropW: 21
+    cropH: 17
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 16
+    spriteName: Soon_Spear
+    atlasIndex: 0
+    uMin: 0.0058139535
+    vMin: 0.5957031
+    uMax: 0.06395349
+    vMax: 0.66015625
+    originalWidth: 10
+    originalHeight: 33
+    cropX: 0
+    cropY: 0
+    cropW: 10
+    cropH: 33
+    pivotX: 0.5
+    pivotY: 0.16666666
+  - spriteId: 17
+    spriteName: Hair_4
+    atlasIndex: 0
+    uMin: 0.14534883
+    vMin: 0.50390625
+    uMax: 0.25
+    vMax: 0.5410156
+    originalWidth: 18
+    originalHeight: 19
+    cropX: 0
+    cropY: 0
+    cropW: 18
+    cropH: 19
+    pivotX: 0.5277778
+    pivotY: 0.6315789
+  - spriteId: 18
+    spriteName: Helmet_1
+    atlasIndex: 0
+    uMin: 0.0058139535
+    vMin: 0.66796875
+    uMax: 0.11627907
+    vMax: 0.703125
+    originalWidth: 19
+    originalHeight: 18
+    cropX: 0
+    cropY: 0
+    cropW: 19
+    cropH: 18
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 19
+    spriteName: Helmet_3
+    atlasIndex: 0
+    uMin: 0.0872093
+    vMin: 0.5957031
+    uMax: 0.20348836
+    vMax: 0.62890625
+    originalWidth: 20
+    originalHeight: 17
+    cropX: 0
+    cropY: 0
+    cropW: 20
+    cropH: 17
+    pivotX: 0.525
+    pivotY: 0.5294118
+  - spriteId: 20
+    spriteName: Helmet_6
+    atlasIndex: 0
+    uMin: 0.15116279
+    vMin: 0.5488281
+    uMax: 0.26744187
+    vMax: 0.5800781
+    originalWidth: 20
+    originalHeight: 16
+    cropX: 0
+    cropY: 0
+    cropW: 20
+    cropH: 16
+    pivotX: 0.525
+    pivotY: 0.5
+  - spriteId: 21
+    spriteName: New_Weapon_13
+    atlasIndex: 0
+    uMin: 0.2848837
+    vMin: 0.45117188
+    uMax: 0.3372093
+    vMax: 0.5136719
+    originalWidth: 32
+    originalHeight: 32
+    cropX: 11
+    cropY: 0
+    cropW: 9
+    cropH: 32
+    pivotX: 0.46875
+    pivotY: 0.09375
+  - spriteId: 22
+    spriteName: New_Weapon_16
+    atlasIndex: 0
+    uMin: 0.0058139535
+    vMin: 0.7109375
+    uMax: 0.058139537
+    vMax: 0.7734375
+    originalWidth: 32
+    originalHeight: 32
+    cropX: 12
+    cropY: 0
+    cropW: 9
+    cropH: 32
+    pivotX: 0.515625
+    pivotY: 0.1875
+  - spriteId: 23
+    spriteName: Hair_7
+    atlasIndex: 0
+    uMin: 0.0058139535
+    vMin: 0.78125
+    uMax: 0.11046512
+    vMax: 0.8144531
+    originalWidth: 22
+    originalHeight: 21
+    cropX: 2
+    cropY: 2
+    cropW: 18
+    cropH: 17
+    pivotX: 0.47727272
+    pivotY: 0.42857143
+  - spriteId: 24
+    spriteName: Helmet_7
+    atlasIndex: 0
+    uMin: 0.08139535
+    vMin: 0.7109375
+    uMax: 0.18604651
+    vMax: 0.7441406
+    originalWidth: 18
+    originalHeight: 17
+    cropX: 0
+    cropY: 0
+    cropW: 18
+    cropH: 17
+    pivotX: 0.4722222
+    pivotY: 0.64705884
+  - spriteId: 25
+    spriteName: Hair_1
+    atlasIndex: 0
+    uMin: 0.13953489
+    vMin: 0.63671875
+    uMax: 0.25
+    vMax: 0.66796875
+    originalWidth: 25
+    originalHeight: 20
+    cropX: 3
+    cropY: 2
+    cropW: 19
+    cropH: 16
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 26
+    spriteName: Hair_9
+    atlasIndex: 0
+    uMin: 0.22674419
+    vMin: 0.5878906
+    uMax: 0.34302327
+    vMax: 0.6171875
+    originalWidth: 20
+    originalHeight: 15
+    cropX: 0
+    cropY: 0
+    cropW: 20
+    cropH: 15
+    pivotX: 0.475
+    pivotY: 0.53333336
+  - spriteId: 27
+    spriteName: Head
+    atlasIndex: 0
+    uMin: 0.13953489
+    vMin: 0.67578125
+    uMax: 0.2616279
+    vMax: 0.703125
+    originalWidth: 22
+    originalHeight: 15
+    cropX: 0
+    cropY: 0
+    cropW: 21
+    cropH: 14
+    pivotX: 0.47727272
+    pivotY: 0.5
+  - spriteId: 28
+    spriteName: Head
+    atlasIndex: 0
+    uMin: 0.27325583
+    vMin: 0.625
+    uMax: 0.39534885
+    vMax: 0.65234375
+    originalWidth: 22
+    originalHeight: 15
+    cropX: 0
+    cropY: 0
+    cropW: 21
+    cropH: 14
+    pivotX: 0.47727272
+    pivotY: 0.5
+  - spriteId: 29
+    spriteName: Head
+    atlasIndex: 0
+    uMin: 0.29069766
+    vMin: 0.5214844
+    uMax: 0.4127907
+    vMax: 0.5488281
+    originalWidth: 21
+    originalHeight: 15
+    cropX: 0
+    cropY: 0
+    cropW: 21
+    cropH: 14
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 30
+    spriteName: Head
+    atlasIndex: 0
+    uMin: 0.36627907
+    vMin: 0.5566406
+    uMax: 0.4883721
+    vMax: 0.5839844
+    originalWidth: 21
+    originalHeight: 15
+    cropX: 0
+    cropY: 0
+    cropW: 21
+    cropH: 14
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 31
+    spriteName: Head
+    atlasIndex: 0
+    uMin: 0.3604651
+    vMin: 0.45117188
+    uMax: 0.48255813
+    vMax: 0.47851562
+    originalWidth: 21
+    originalHeight: 15
+    cropX: 0
+    cropY: 0
+    cropW: 21
+    cropH: 14
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 32
+    spriteName: Head
+    atlasIndex: 0
+    uMin: 0.3604651
+    vMin: 0.48632812
+    uMax: 0.48255813
+    vMax: 0.5136719
+    originalWidth: 21
+    originalHeight: 15
+    cropX: 0
+    cropY: 0
+    cropW: 21
+    cropH: 14
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 33
+    spriteName: New_Back_02
+    atlasIndex: 0
+    uMin: 0.4360465
+    vMin: 0.5214844
+    uMax: 0.5523256
+    vMax: 0.5488281
+    originalWidth: 32
+    originalHeight: 32
+    cropX: 6
+    cropY: 9
+    cropW: 20
+    cropH: 14
+    pivotX: 0.34375
+    pivotY: 0.546875
+  - spriteId: 34
+    spriteName: Axe_1
+    atlasIndex: 0
+    uMin: 0.4011628
+    vMin: 0.40039062
+    uMax: 0.47674417
+    vMax: 0.44140625
+    originalWidth: 13
+    originalHeight: 21
+    cropX: 0
+    cropY: 0
+    cropW: 13
+    cropH: 21
+    pivotX: 0.65384614
+    pivotY: 0.19047618
+  - spriteId: 35
+    spriteName: New_Weapon_15
+    atlasIndex: 0
+    uMin: 0.45930234
+    vMin: 0.30664062
+    uMax: 0.51744187
+    vMax: 0.35546875
+    originalWidth: 32
+    originalHeight: 32
+    cropX: 11
+    cropY: 3
+    cropW: 10
+    cropH: 25
+    pivotX: 0.421875
+    pivotY: 0.515625
+  - spriteId: 36
+    spriteName: New_Weapon_01
+    atlasIndex: 0
+    uMin: 0.5
+    vMin: 0.36328125
+    uMax: 0.56395346
+    vMax: 0.40820312
+    originalWidth: 32
+    originalHeight: 32
+    cropX: 11
+    cropY: 5
+    cropW: 11
+    cropH: 23
+    pivotX: 0.515625
+    pivotY: 0.25
+  - spriteId: 37
+    spriteName: Back_1
+    atlasIndex: 0
+    uMin: 0.08139535
+    vMin: 0.7519531
+    uMax: 0.21511628
+    vMax: 0.7734375
+    originalWidth: 23
+    originalHeight: 11
+    cropX: 0
+    cropY: 0
+    cropW: 23
+    cropH: 11
+    pivotX: 0.47826087
+    pivotY: 0.90909094
+  - spriteId: 38
+    spriteName: Back_2
+    atlasIndex: 0
+    uMin: 0.36627907
+    vMin: 0.5917969
+    uMax: 0.5
+    vMax: 0.61328125
+    originalWidth: 23
+    originalHeight: 11
+    cropX: 0
+    cropY: 0
+    cropW: 23
+    cropH: 11
+    pivotX: 0.47826087
+    pivotY: 0.90909094
+  - spriteId: 39
+    spriteName: New_Weapon_04
+    atlasIndex: 0
+    uMin: 0.5406977
+    vMin: 0.25976562
+    uMax: 0.6104651
+    vMax: 0.30078125
+    originalWidth: 32
+    originalHeight: 32
+    cropX: 10
+    cropY: 5
+    cropW: 12
+    cropH: 21
+    pivotX: 0.546875
+    pivotY: 0.265625
+  - spriteId: 40
+    spriteName: Head
+    atlasIndex: 0
+    uMin: 0.20930232
+    vMin: 0.7109375
+    uMax: 0.30813953
+    vMax: 0.7402344
+    originalWidth: 17
+    originalHeight: 15
+    cropX: 0
+    cropY: 0
+    cropW: 17
+    cropH: 15
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 41
+    spriteName: Spear_1
+    atlasIndex: 0
+    uMin: 0.50581396
+    vMin: 0.41601562
+    uMax: 0.5523256
+    vMax: 0.47070312
+    originalWidth: 8
+    originalHeight: 28
+    cropX: 0
+    cropY: 0
+    cropW: 8
+    cropH: 28
+    pivotX: 0.5
+    pivotY: 0.21428573
+  - spriteId: 42
+    spriteName: Sword_2
+    atlasIndex: 0
+    uMin: 0.2848837
+    vMin: 0.66015625
+    uMax: 0.3488372
+    vMax: 0.7011719
+    originalWidth: 11
+    originalHeight: 21
+    cropX: 0
+    cropY: 0
+    cropW: 11
+    cropH: 21
+    pivotX: 0.5
+    pivotY: 0.21428569
+  - spriteId: 43
+    spriteName: Sword_5
+    atlasIndex: 0
+    uMin: 0.5406977
+    vMin: 0.30859375
+    uMax: 0.60465115
+    vMax: 0.34960938
+    originalWidth: 11
+    originalHeight: 21
+    cropX: 0
+    cropY: 0
+    cropW: 11
+    cropH: 21
+    pivotX: 0.5
+    pivotY: 0.21428569
+  - spriteId: 44
+    spriteName: Head
+    atlasIndex: 0
+    uMin: 0.5116279
+    vMin: 0.5566406
+    uMax: 0.60465115
+    vMax: 0.5839844
+    originalWidth: 17
+    originalHeight: 15
+    cropX: 1
+    cropY: 0
+    cropW: 16
+    cropH: 14
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 45
+    spriteName: Head
+    atlasIndex: 0
+    uMin: 0.50581396
+    vMin: 0.47851562
+    uMax: 0.5988372
+    vMax: 0.5058594
+    originalWidth: 17
+    originalHeight: 15
+    cropX: 1
+    cropY: 0
+    cropW: 16
+    cropH: 14
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 46
+    spriteName: Head
+    atlasIndex: 0
+    uMin: 0.5755814
+    vMin: 0.5136719
+    uMax: 0.6686047
+    vMax: 0.5410156
+    originalWidth: 17
+    originalHeight: 15
+    cropX: 1
+    cropY: 0
+    cropW: 16
+    cropH: 14
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 47
+    spriteName: Head
+    atlasIndex: 0
+    uMin: 0.5755814
+    vMin: 0.41601562
+    uMax: 0.6686047
+    vMax: 0.44335938
+    originalWidth: 17
+    originalHeight: 15
+    cropX: 1
+    cropY: 0
+    cropW: 16
+    cropH: 14
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 48
+    spriteName: Head
+    atlasIndex: 0
+    uMin: 0.5872093
+    vMin: 0.35742188
+    uMax: 0.6802326
+    vMax: 0.38476562
+    originalWidth: 17
+    originalHeight: 15
+    cropX: 1
+    cropY: 0
+    cropW: 16
+    cropH: 14
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 49
+    spriteName: Head
+    atlasIndex: 0
+    uMin: 0.627907
+    vMin: 0.30859375
+    uMax: 0.7209302
+    vMax: 0.3359375
+    originalWidth: 16
+    originalHeight: 14
+    cropX: 0
+    cropY: 0
+    cropW: 16
+    cropH: 14
+    pivotX: 0.46875
+    pivotY: 0.53571427
+  - spriteId: 50
+    spriteName: Bow_1
+    atlasIndex: 0
+    uMin: 0.63372093
+    vMin: 0.25976562
+    uMax: 0.7093023
+    vMax: 0.29296875
+    originalWidth: 13
+    originalHeight: 17
+    cropX: 0
+    cropY: 0
+    cropW: 13
+    cropH: 17
+    pivotX: 0.5
+    pivotY: 0.5294118
+  - spriteId: 51
+    spriteName: Back_3
+    atlasIndex: 0
+    uMin: 0.73255813
+    vMin: 0.25976562
+    uMax: 0.8313953
+    vMax: 0.28320312
+    originalWidth: 17
+    originalHeight: 12
+    cropX: 0
+    cropY: 0
+    cropW: 17
+    cropH: 12
+    pivotX: 0.47058824
+    pivotY: 0.9166667
+  - spriteId: 52
+    spriteName: New_Weapon_10
+    atlasIndex: 0
+    uMin: 0.622093
+    vMin: 0.45117188
+    uMax: 0.6744186
+    vMax: 0.4921875
+    originalWidth: 32
+    originalHeight: 32
+    cropX: 11
+    cropY: 5
+    cropW: 9
+    cropH: 21
+    pivotX: 0.390625
+    pivotY: 0.515625
+  - spriteId: 53
+    spriteName: New_Weapon_12
+    atlasIndex: 0
+    uMin: 0.69186044
+    vMin: 0.39257812
+    uMax: 0.74418604
+    vMax: 0.43359375
+    originalWidth: 32
+    originalHeight: 32
+    cropX: 12
+    cropY: 5
+    cropW: 9
+    cropH: 21
+    pivotX: 0.4375
+    pivotY: 0.5
+  - spriteId: 54
+    spriteName: New_Shield_01
+    atlasIndex: 0
+    uMin: 0.70348835
+    vMin: 0.34375
+    uMax: 0.78488374
+    vMax: 0.37109375
+    originalWidth: 32
+    originalHeight: 32
+    cropX: 9
+    cropY: 9
+    cropW: 14
+    cropH: 14
+    pivotX: 0.5625
+    pivotY: 0.53125
+  - spriteId: 55
+    spriteName: New_Weapon_09
+    atlasIndex: 0
+    uMin: 0.0058139535
+    vMin: 0.8222656
+    uMax: 0.034883723
+    vMax: 0.8847656
+    originalWidth: 32
+    originalHeight: 32
+    cropX: 13
+    cropY: 0
+    cropW: 5
+    cropH: 32
+    pivotX: 0.5
+    pivotY: 0.1875
+  - spriteId: 56
+    spriteName: BowBack_1
+    atlasIndex: 0
+    uMin: 0.74418604
+    vMin: 0.29101562
+    uMax: 0.8255814
+    vMax: 0.31835938
+    originalWidth: 14
+    originalHeight: 14
+    cropX: 0
+    cropY: 0
+    cropW: 14
+    cropH: 14
+    pivotX: 0.21746032
+    pivotY: 0.568254
+  - spriteId: 57
+    spriteName: New_Shield_03
+    atlasIndex: 0
+    uMin: 0.0058139535
+    vMin: 0.8925781
+    uMax: 0.075581394
+    vMax: 0.9238281
+    originalWidth: 32
+    originalHeight: 32
+    cropX: 10
+    cropY: 8
+    cropW: 12
+    cropH: 16
+    pivotX: 0.453125
+    pivotY: 0.484375
+  - spriteId: 58
+    spriteName: New_Shield_04
+    atlasIndex: 0
+    uMin: 0.058139537
+    vMin: 0.8222656
+    uMax: 0.12790698
+    vMax: 0.8535156
+    originalWidth: 32
+    originalHeight: 32
+    cropX: 10
+    cropY: 8
+    cropW: 12
+    cropH: 16
+    pivotX: 0.46875
+    pivotY: 0.46875
+  - spriteId: 59
+    spriteName: New_Weapon_17
+    atlasIndex: 0
+    uMin: 0.0058139535
+    vMin: 0.9316406
+    uMax: 0.05232558
+    vMax: 0.9746094
+    originalWidth: 32
+    originalHeight: 32
+    cropX: 12
+    cropY: 5
+    cropW: 8
+    cropH: 22
+    pivotX: 0.515625
+    pivotY: 0.234375
+  - spriteId: 60
+    spriteName: New_Shield_02
+    atlasIndex: 0
+    uMin: 0.13372093
+    vMin: 0.78125
+    uMax: 0.20930232
+    vMax: 0.80859375
+    originalWidth: 32
+    originalHeight: 32
+    cropX: 9
+    cropY: 9
+    cropW: 13
+    cropH: 14
+    pivotX: 0.46875
+    pivotY: 0.5
+  - spriteId: 61
+    spriteName: New_Weapon_07
+    atlasIndex: 0
+    uMin: 0.4651163
+    vMin: 0.25976562
+    uMax: 0.51744187
+    vMax: 0.296875
+    originalWidth: 32
+    originalHeight: 32
+    cropX: 12
+    cropY: 6
+    cropW: 9
+    cropH: 19
+    pivotX: 0.515625
+    pivotY: 0.28125
+  - spriteId: 62
+    spriteName: New_Weapon_06
+    atlasIndex: 0
+    uMin: 0.075581394
+    vMin: 0.9316406
+    uMax: 0.11627907
+    vMax: 0.9746094
+    originalWidth: 32
+    originalHeight: 32
+    cropX: 12
+    cropY: 5
+    cropW: 7
+    cropH: 22
+    pivotX: 0.484375
+    pivotY: 0.234375
+  - spriteId: 63
+    spriteName: New_Weapon_20
+    atlasIndex: 0
+    uMin: 0.09883721
+    vMin: 0.8613281
+    uMax: 0.13953489
+    vMax: 0.9042969
+    originalWidth: 32
+    originalHeight: 32
+    cropX: 13
+    cropY: 5
+    cropW: 7
+    cropH: 22
+    pivotX: 0.515625
+    pivotY: 0.25
+  - spriteId: 64
+    spriteName: Sword_3
+    atlasIndex: 0
+    uMin: 0.13953489
+    vMin: 0.9121094
+    uMax: 0.18023255
+    vMax: 0.9550781
+    originalWidth: 7
+    originalHeight: 22
+    cropX: 0
+    cropY: 0
+    cropW: 7
+    cropH: 22
+    pivotX: 0.5
+    pivotY: 0.1590909
+  - spriteId: 65
+    spriteName: Body
+    atlasIndex: 0
+    uMin: 0.13953489
+    vMin: 0.9628906
+    uMax: 0.22674419
+    vMax: 0.984375
+    originalWidth: 15
+    originalHeight: 11
+    cropX: 0
+    cropY: 0
+    cropW: 15
+    cropH: 11
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 66
+    spriteName: New_Weapon_14
+    atlasIndex: 0
+    uMin: 0.1627907
+    vMin: 0.81640625
+    uMax: 0.20348836
+    vMax: 0.8574219
+    originalWidth: 32
+    originalHeight: 32
+    cropX: 13
+    cropY: 5
+    cropW: 7
+    cropH: 21
+    pivotX: 0.5
+    pivotY: 0.28125
+  - spriteId: 67
+    spriteName: Sword_4
+    atlasIndex: 0
+    uMin: 0.20348836
+    vMin: 0.8652344
+    uMax: 0.23837209
+    vMax: 0.9082031
+    originalWidth: 6
+    originalHeight: 22
+    cropX: 0
+    cropY: 0
+    cropW: 6
+    cropH: 22
+    pivotX: 0.41666666
+    pivotY: 0.1590909
+  - spriteId: 68
+    spriteName: Body
+    atlasIndex: 0
+    uMin: 0.20348836
+    vMin: 0.9160156
+    uMax: 0.27325583
+    vMax: 0.9394531
+    originalWidth: 12
+    originalHeight: 13
+    cropX: 0
+    cropY: 0
+    cropW: 12
+    cropH: 12
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 69
+    spriteName: Body
+    atlasIndex: 0
+    uMin: 0.22674419
+    vMin: 0.81640625
+    uMax: 0.30813953
+    vMax: 0.8359375
+    originalWidth: 14
+    originalHeight: 10
+    cropX: 0
+    cropY: 0
+    cropW: 14
+    cropH: 10
+    pivotX: 0.42857143
+    pivotY: 0.5
+  - spriteId: 70
+    spriteName: Ward_1
+    atlasIndex: 0
+    uMin: 0.25
+    vMin: 0.9472656
+    uMax: 0.27906978
+    vMax: 0.9921875
+    originalWidth: 5
+    originalHeight: 23
+    cropX: 0
+    cropY: 0
+    cropW: 5
+    cropH: 23
+    pivotX: 0.7
+    pivotY: 0.36956522
+  - spriteId: 71
+    spriteName: Sword_1
+    atlasIndex: 0
+    uMin: 0.23837209
+    vMin: 0.7480469
+    uMax: 0.27906978
+    vMax: 0.7832031
+    originalWidth: 7
+    originalHeight: 18
+    cropX: 0
+    cropY: 0
+    cropW: 7
+    cropH: 18
+    pivotX: 0.5
+    pivotY: 0.22222221
+  - spriteId: 72
+    spriteName: Body
+    atlasIndex: 0
+    uMin: 0.30232558
+    vMin: 0.7480469
+    uMax: 0.37209302
+    vMax: 0.76953125
+    originalWidth: 12
+    originalHeight: 11
+    cropX: 0
+    cropY: 0
+    cropW: 12
+    cropH: 11
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 73
+    spriteName: New_Weapon_05
+    atlasIndex: 0
+    uMin: 0.2616279
+    vMin: 0.84375
+    uMax: 0.30232558
+    vMax: 0.8769531
+    originalWidth: 32
+    originalHeight: 32
+    cropX: 13
+    cropY: 8
+    cropW: 7
+    cropH: 17
+    pivotX: 0.53125
+    pivotY: 0.328125
+  - spriteId: 74
+    spriteName: New_Weapon_03
+    atlasIndex: 0
+    uMin: 0.29651162
+    vMin: 0.8847656
+    uMax: 0.33139536
+    vMax: 0.921875
+    originalWidth: 32
+    originalHeight: 32
+    cropX: 13
+    cropY: 5
+    cropW: 6
+    cropH: 19
+    pivotX: 0.5
+    pivotY: 0.296875
+  - spriteId: 75
+    spriteName: Body
+    atlasIndex: 0
+    uMin: 0.33139536
+    vMin: 0.7089844
+    uMax: 0.4011628
+    vMax: 0.7285156
+    originalWidth: 12
+    originalHeight: 10
+    cropX: 0
+    cropY: 0
+    cropW: 12
+    cropH: 10
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 76
+    spriteName: Body
+    atlasIndex: 0
+    uMin: 0.30232558
+    vMin: 0.77734375
+    uMax: 0.37209302
+    vMax: 0.796875
+    originalWidth: 12
+    originalHeight: 10
+    cropX: 0
+    cropY: 0
+    cropW: 12
+    cropH: 10
+    pivotX: 0.5
+    pivotY: 0.35
+  - spriteId: 77
+    spriteName: Body
+    atlasIndex: 0
+    uMin: 0.3255814
+    vMin: 0.84375
+    uMax: 0.39534885
+    vMax: 0.86328125
+    originalWidth: 12
+    originalHeight: 10
+    cropX: 0
+    cropY: 0
+    cropW: 12
+    cropH: 10
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 78
+    spriteName: Body
+    atlasIndex: 0
+    uMin: 0.33139536
+    vMin: 0.8046875
+    uMax: 0.4011628
+    vMax: 0.82421875
+    originalWidth: 12
+    originalHeight: 10
+    cropX: 0
+    cropY: 0
+    cropW: 12
+    cropH: 10
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 79
+    spriteName: Body
+    atlasIndex: 0
+    uMin: 0.37209302
+    vMin: 0.66015625
+    uMax: 0.44186047
+    vMax: 0.6796875
+    originalWidth: 12
+    originalHeight: 10
+    cropX: 0
+    cropY: 0
+    cropW: 12
+    cropH: 10
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 80
+    spriteName: Body
+    atlasIndex: 0
+    uMin: 0.41860464
+    vMin: 0.62109375
+    uMax: 0.4883721
+    vMax: 0.640625
+    originalWidth: 12
+    originalHeight: 10
+    cropX: 0
+    cropY: 0
+    cropW: 12
+    cropH: 10
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 81
+    spriteName: Body
+    atlasIndex: 0
+    uMin: 0.39534885
+    vMin: 0.7363281
+    uMax: 0.4651163
+    vMax: 0.7558594
+    originalWidth: 12
+    originalHeight: 10
+    cropX: 0
+    cropY: 0
+    cropW: 12
+    cropH: 10
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 82
+    spriteName: Body
+    atlasIndex: 0
+    uMin: 0.39534885
+    vMin: 0.7636719
+    uMax: 0.4651163
+    vMax: 0.7832031
+    originalWidth: 12
+    originalHeight: 10
+    cropX: 0
+    cropY: 0
+    cropW: 12
+    cropH: 10
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 83
+    spriteName: Body
+    atlasIndex: 0
+    uMin: 0.4244186
+    vMin: 0.6875
+    uMax: 0.49418604
+    vMax: 0.70703125
+    originalWidth: 12
+    originalHeight: 10
+    cropX: 0
+    cropY: 0
+    cropW: 12
+    cropH: 10
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 84
+    spriteName: Body
+    atlasIndex: 0
+    uMin: 0.4651163
+    vMin: 0.6484375
+    uMax: 0.53488374
+    vMax: 0.66796875
+    originalWidth: 12
+    originalHeight: 10
+    cropX: 0
+    cropY: 0
+    cropW: 12
+    cropH: 10
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 85
+    spriteName: Body
+    atlasIndex: 0
+    uMin: 0.5116279
+    vMin: 0.62109375
+    uMax: 0.5813953
+    vMax: 0.640625
+    originalWidth: 12
+    originalHeight: 10
+    cropX: 0
+    cropY: 0
+    cropW: 12
+    cropH: 10
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 86
+    spriteName: Body
+    atlasIndex: 0
+    uMin: 0.5232558
+    vMin: 0.5917969
+    uMax: 0.59302324
+    vMax: 0.6113281
+    originalWidth: 12
+    originalHeight: 10
+    cropX: 0
+    cropY: 0
+    cropW: 12
+    cropH: 10
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 87
+    spriteName: Body
+    atlasIndex: 0
+    uMin: 0.30232558
+    vMin: 0.9296875
+    uMax: 0.37209302
+    vMax: 0.94921875
+    originalWidth: 12
+    originalHeight: 10
+    cropX: 0
+    cropY: 0
+    cropW: 12
+    cropH: 10
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 88
+    spriteName: Body
+    atlasIndex: 0
+    uMin: 0.30232558
+    vMin: 0.95703125
+    uMax: 0.37209302
+    vMax: 0.9765625
+    originalWidth: 12
+    originalHeight: 10
+    cropX: 0
+    cropY: 0
+    cropW: 12
+    cropH: 10
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 89
+    spriteName: Body
+    atlasIndex: 0
+    uMin: 0.35465115
+    vMin: 0.87109375
+    uMax: 0.4244186
+    vMax: 0.890625
+    originalWidth: 12
+    originalHeight: 10
+    cropX: 0
+    cropY: 0
+    cropW: 12
+    cropH: 10
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 90
+    spriteName: Body
+    atlasIndex: 0
+    uMin: 0.35465115
+    vMin: 0.8984375
+    uMax: 0.4244186
+    vMax: 0.91796875
+    originalWidth: 12
+    originalHeight: 10
+    cropX: 0
+    cropY: 0
+    cropW: 12
+    cropH: 10
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 91
+    spriteName: Body
+    atlasIndex: 0
+    uMin: 0.41860464
+    vMin: 0.83203125
+    uMax: 0.4883721
+    vMax: 0.8515625
+    originalWidth: 12
+    originalHeight: 10
+    cropX: 0
+    cropY: 0
+    cropW: 12
+    cropH: 10
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 92
+    spriteName: Body
+    atlasIndex: 0
+    uMin: 0.4244186
+    vMin: 0.7910156
+    uMax: 0.49418604
+    vMax: 0.8105469
+    originalWidth: 12
+    originalHeight: 10
+    cropX: 0
+    cropY: 0
+    cropW: 12
+    cropH: 10
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 93
+    spriteName: Body
+    atlasIndex: 0
+    uMin: 0.4883721
+    vMin: 0.71484375
+    uMax: 0.55813956
+    vMax: 0.734375
+    originalWidth: 12
+    originalHeight: 10
+    cropX: 0
+    cropY: 0
+    cropW: 12
+    cropH: 10
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 94
+    spriteName: Body
+    atlasIndex: 0
+    uMin: 0.51744187
+    vMin: 0.67578125
+    uMax: 0.5872093
+    vMax: 0.6953125
+    originalWidth: 12
+    originalHeight: 10
+    cropX: 0
+    cropY: 0
+    cropW: 12
+    cropH: 10
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 95
+    spriteName: Body
+    atlasIndex: 0
+    uMin: 0.55813956
+    vMin: 0.6484375
+    uMax: 0.627907
+    vMax: 0.66796875
+    originalWidth: 12
+    originalHeight: 10
+    cropX: 0
+    cropY: 0
+    cropW: 12
+    cropH: 10
+    pivotX: 0.5
+    pivotY: 0.35
+  - spriteId: 96
+    spriteName: Body
+    atlasIndex: 0
+    uMin: 0.60465115
+    vMin: 0.6191406
+    uMax: 0.6744186
+    vMax: 0.6386719
+    originalWidth: 12
+    originalHeight: 10
+    cropX: 0
+    cropY: 0
+    cropW: 12
+    cropH: 10
+    pivotX: 0.5
+    pivotY: 0.45
+  - spriteId: 97
+    spriteName: Body
+    atlasIndex: 0
+    uMin: 0.61627907
+    vMin: 0.5917969
+    uMax: 0.68604654
+    vMax: 0.609375
+    originalWidth: 12
+    originalHeight: 9
+    cropX: 0
+    cropY: 0
+    cropW: 12
+    cropH: 9
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 98
+    spriteName: Body
+    atlasIndex: 0
+    uMin: 0.627907
+    vMin: 0.5488281
+    uMax: 0.6976744
+    vMax: 0.56640625
+    originalWidth: 12
+    originalHeight: 9
+    cropX: 0
+    cropY: 0
+    cropW: 12
+    cropH: 9
+    pivotX: 0.5
+    pivotY: 0.5555556
+  - spriteId: 99
+    spriteName: Body
+    atlasIndex: 0
+    uMin: 0.69186044
+    vMin: 0.5
+    uMax: 0.7616279
+    vMax: 0.5175781
+    originalWidth: 12
+    originalHeight: 9
+    cropX: 0
+    cropY: 0
+    cropW: 12
+    cropH: 9
+    pivotX: 0.5
+    pivotY: 0.5555556
+  - spriteId: 100
+    spriteName: Body
+    atlasIndex: 0
+    uMin: 0.4883721
+    vMin: 0.7421875
+    uMax: 0.55813956
+    vMax: 0.7597656
+    originalWidth: 12
+    originalHeight: 9
+    cropX: 0
+    cropY: 0
+    cropW: 12
+    cropH: 9
+    pivotX: 0.5
+    pivotY: 0.3888889
+  - spriteId: 101
+    spriteName: New_Weapon_18
+    atlasIndex: 0
+    uMin: 0.6976744
+    vMin: 0.44140625
+    uMax: 0.7267442
+    vMax: 0.47851562
+    originalWidth: 32
+    originalHeight: 32
+    cropX: 13
+    cropY: 6
+    cropW: 5
+    cropH: 19
+    pivotX: 0.484375
+    pivotY: 0.28125
+  - spriteId: 102
+    spriteName: Sword_6
+    atlasIndex: 0
+    uMin: 0.4244186
+    vMin: 0.36328125
+    uMax: 0.45930234
+    vMax: 0.39257812
+    originalWidth: 6
+    originalHeight: 15
+    cropX: 0
+    cropY: 0
+    cropW: 6
+    cropH: 15
+    pivotX: 0.41666666
+    pivotY: 0.19999999
+  - spriteId: 103
+    spriteName: Shield_1
+    atlasIndex: 0
+    uMin: 0.29069766
+    vMin: 0.5566406
+    uMax: 0.34302327
+    vMax: 0.5761719
+    originalWidth: 9
+    originalHeight: 10
+    cropX: 0
+    cropY: 0
+    cropW: 9
+    cropH: 10
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 104
+    spriteName: New_Back_01
+    atlasIndex: 0
+    uMin: 0.5872093
+    vMin: 0.39257812
+    uMax: 0.6511628
+    vMax: 0.40820312
+    originalWidth: 32
+    originalHeight: 32
+    cropX: 10
+    cropY: 12
+    cropW: 11
+    cropH: 8
+    pivotX: 0.25
+    pivotY: 0.671875
+  - spriteId: 105
+    spriteName: Body
+    atlasIndex: 0
+    uMin: 0.69186044
+    vMin: 0.5253906
+    uMax: 0.7616279
+    vMax: 0.5390625
+    originalWidth: 12
+    originalHeight: 9
+    cropX: 0
+    cropY: 2
+    cropW: 12
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 106
+    spriteName: New_Weapon_19
+    atlasIndex: 0
+    uMin: 0.75
+    vMin: 0.44140625
+    uMax: 0.78488374
+    vMax: 0.46679688
+    originalWidth: 32
+    originalHeight: 32
+    cropX: 13
+    cropY: 10
+    cropW: 6
+    cropH: 13
+    pivotX: 0.515625
+    pivotY: 0.40625
+  - spriteId: 107
+    spriteName: Body
+    atlasIndex: 0
+    uMin: 0.4883721
+    vMin: 0.7675781
+    uMax: 0.5523256
+    vMax: 0.78125
+    originalWidth: 12
+    originalHeight: 9
+    cropX: 1
+    cropY: 2
+    cropW: 11
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.6111111
+  - spriteId: 108
+    spriteName: Left
+    atlasIndex: 0
+    uMin: 0.23255815
+    vMin: 0.7910156
+    uMax: 0.27906978
+    vMax: 0.80859375
+    originalWidth: 9
+    originalHeight: 9
+    cropX: 0
+    cropY: 0
+    cropW: 8
+    cropH: 9
+    pivotX: 0.2777778
+    pivotY: 0.7222222
+  - spriteId: 109
+    spriteName: Right
+    atlasIndex: 0
+    uMin: 0.75
+    vMin: 0.47460938
+    uMax: 0.79651165
+    vMax: 0.4921875
+    originalWidth: 9
+    originalHeight: 9
+    cropX: 1
+    cropY: 0
+    cropW: 8
+    cropH: 9
+    pivotX: 0.7222222
+    pivotY: 0.7222222
+  - spriteId: 110
+    spriteName: FaceHair_1
+    atlasIndex: 0
+    uMin: 0.74418604
+    vMin: 0.32617188
+    uMax: 0.8197674
+    vMax: 0.3359375
+    originalWidth: 14
+    originalHeight: 5
+    cropX: 1
+    cropY: 0
+    cropW: 13
+    cropH: 5
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 111
+    spriteName: Body
+    atlasIndex: 0
+    uMin: 0.627907
+    vMin: 0.57421875
+    uMax: 0.6976744
+    vMax: 0.5839844
+    originalWidth: 12
+    originalHeight: 10
+    cropX: 0
+    cropY: 0
+    cropW: 12
+    cropH: 5
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 112
+    spriteName: Left
+    atlasIndex: 0
+    uMin: 0.76744187
+    vMin: 0.37890625
+    uMax: 0.8197674
+    vMax: 0.39257812
+    originalWidth: 9
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 9
+    cropH: 7
+    pivotX: 0.3333333
+    pivotY: 0.42857143
+  - spriteId: 113
+    spriteName: Right
+    atlasIndex: 0
+    uMin: 0.80813956
+    vMin: 0.34375
+    uMax: 0.8604651
+    vMax: 0.35742188
+    originalWidth: 9
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 9
+    cropH: 7
+    pivotX: 0.7222222
+    pivotY: 0.5
+  - spriteId: 114
+    spriteName: Left
+    atlasIndex: 0
+    uMin: 0.76744187
+    vMin: 0.40039062
+    uMax: 0.81395346
+    vMax: 0.4140625
+    originalWidth: 9
+    originalHeight: 9
+    cropX: 0
+    cropY: 2
+    cropW: 8
+    cropH: 7
+    pivotX: 0.3888889
+    pivotY: 0.7222222
+  - spriteId: 115
+    spriteName: Right
+    atlasIndex: 0
+    uMin: 0.8488372
+    vMin: 0.29101562
+    uMax: 0.89534885
+    vMax: 0.3046875
+    originalWidth: 9
+    originalHeight: 9
+    cropX: 1
+    cropY: 2
+    cropW: 8
+    cropH: 7
+    pivotX: 0.6111111
+    pivotY: 0.7222222
+  - spriteId: 116
+    spriteName: Left
+    atlasIndex: 0
+    uMin: 0.8488372
+    vMin: 0.3125
+    uMax: 0.8895349
+    vMax: 0.328125
+    originalWidth: 7
+    originalHeight: 8
+    cropX: 0
+    cropY: 0
+    cropW: 7
+    cropH: 8
+    pivotX: 0.35714287
+    pivotY: 0.625
+  - spriteId: 117
+    spriteName: Right
+    atlasIndex: 0
+    uMin: 0.80813956
+    vMin: 0.421875
+    uMax: 0.8488372
+    vMax: 0.4375
+    originalWidth: 7
+    originalHeight: 8
+    cropX: 0
+    cropY: 0
+    cropW: 7
+    cropH: 8
+    pivotX: 0.64285713
+    pivotY: 0.6875
+  - spriteId: 118
+    spriteName: New_Weapon_11
+    atlasIndex: 0
+    uMin: 0.0872093
+    vMin: 0.63671875
+    uMax: 0.11046512
+    vMax: 0.66015625
+    originalWidth: 16
+    originalHeight: 16
+    cropX: 5
+    cropY: 2
+    cropW: 4
+    cropH: 12
+    pivotX: 0.5
+    pivotY: 0.3125
+  - spriteId: 119
+    spriteName: FaceHair_3
+    atlasIndex: 0
+    uMin: 0.30232558
+    vMin: 0.984375
+    uMax: 0.36627907
+    vMax: 0.9921875
+    originalWidth: 14
+    originalHeight: 5
+    cropX: 2
+    cropY: 0
+    cropW: 11
+    cropH: 4
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 120
+    spriteName: Left
+    atlasIndex: 0
+    uMin: 0.0058139535
+    vMin: 0.9824219
+    uMax: 0.05232558
+    vMax: 0.9941406
+    originalWidth: 8
+    originalHeight: 6
+    cropX: 0
+    cropY: 0
+    cropW: 8
+    cropH: 6
+    pivotX: 0.25
+    pivotY: 0.5833333
+  - spriteId: 121
+    spriteName: Right
+    atlasIndex: 0
+    uMin: 0.8372093
+    vMin: 0.40039062
+    uMax: 0.88372093
+    vMax: 0.41210938
+    originalWidth: 8
+    originalHeight: 6
+    cropX: 0
+    cropY: 0
+    cropW: 8
+    cropH: 6
+    pivotX: 0.75
+    pivotY: 0.6666667
+  - spriteId: 122
+    spriteName: Left
+    atlasIndex: 0
+    uMin: 0.80813956
+    vMin: 0.4453125
+    uMax: 0.85465115
+    vMax: 0.45703125
+    originalWidth: 8
+    originalHeight: 6
+    cropX: 0
+    cropY: 0
+    cropW: 8
+    cropH: 6
+    pivotX: 0.125
+    pivotY: 0.5833333
+  - spriteId: 123
+    spriteName: Right
+    atlasIndex: 0
+    uMin: 0.872093
+    vMin: 0.41992188
+    uMax: 0.9186047
+    vMax: 0.43164062
+    originalWidth: 8
+    originalHeight: 6
+    cropX: 0
+    cropY: 0
+    cropW: 8
+    cropH: 6
+    pivotX: 0.875
+    pivotY: 0.5833333
+  - spriteId: 124
+    spriteName: Body
+    atlasIndex: 0
+    uMin: 0.80813956
+    vMin: 0.36523438
+    uMax: 0.877907
+    vMax: 0.37109375
+    originalWidth: 12
+    originalHeight: 5
+    cropX: 0
+    cropY: 0
+    cropW: 12
+    cropH: 3
+    pivotX: 0.5
+    pivotY: 0.7
+  - spriteId: 125
+    spriteName: Arm_L
+    atlasIndex: 0
+    uMin: 0.4244186
+    vMin: 0.71484375
+    uMax: 0.45930234
+    vMax: 0.7285156
+    originalWidth: 6
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 6
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 126
+    spriteName: Left
+    atlasIndex: 0
+    uMin: 0.84302324
+    vMin: 0.37890625
+    uMax: 0.877907
+    vMax: 0.39257812
+    originalWidth: 6
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 6
+    cropH: 7
+    pivotX: 0.5833333
+    pivotY: 0.5
+  - spriteId: 127
+    spriteName: Arm_R
+    atlasIndex: 0
+    uMin: 0.88372093
+    vMin: 0.3359375
+    uMax: 0.9186047
+    vMax: 0.34960938
+    originalWidth: 6
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 6
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 128
+    spriteName: Right
+    atlasIndex: 0
+    uMin: 0.9127907
+    vMin: 0.3125
+    uMax: 0.9476744
+    vMax: 0.32617188
+    originalWidth: 6
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 6
+    cropH: 7
+    pivotX: 0.41666666
+    pivotY: 0.5
+  - spriteId: 129
+    spriteName: Arm_L
+    atlasIndex: 0
+    uMin: 0.9011628
+    vMin: 0.35742188
+    uMax: 0.93604654
+    vMax: 0.37109375
+    originalWidth: 6
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 6
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 130
+    spriteName: Arm_R
+    atlasIndex: 0
+    uMin: 0.9011628
+    vMin: 0.37890625
+    uMax: 0.93604654
+    vMax: 0.39257812
+    originalWidth: 6
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 6
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 131
+    spriteName: Arm_L
+    atlasIndex: 0
+    uMin: 0.94186044
+    vMin: 0.33398438
+    uMax: 0.9767442
+    vMax: 0.34765625
+    originalWidth: 6
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 6
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 132
+    spriteName: Arm_R
+    atlasIndex: 0
+    uMin: 0.39534885
+    vMin: 0.92578125
+    uMax: 0.43023255
+    vMax: 0.9394531
+    originalWidth: 6
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 6
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 133
+    spriteName: Arm_R
+    atlasIndex: 0
+    uMin: 0.39534885
+    vMin: 0.9472656
+    uMax: 0.43023255
+    vMax: 0.9609375
+    originalWidth: 6
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 6
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 134
+    spriteName: Arm_L
+    atlasIndex: 0
+    uMin: 0.39534885
+    vMin: 0.96875
+    uMax: 0.43023255
+    vMax: 0.9824219
+    originalWidth: 6
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 6
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 135
+    spriteName: Arm_L
+    atlasIndex: 0
+    uMin: 0.44767442
+    vMin: 0.859375
+    uMax: 0.48255813
+    vMax: 0.8730469
+    originalWidth: 6
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 6
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 136
+    spriteName: Arm_R
+    atlasIndex: 0
+    uMin: 0.44767442
+    vMin: 0.8808594
+    uMax: 0.48255813
+    vMax: 0.89453125
+    originalWidth: 6
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 6
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 137
+    spriteName: Arm_L
+    atlasIndex: 0
+    uMin: 0.44767442
+    vMin: 0.90234375
+    uMax: 0.48255813
+    vMax: 0.9160156
+    originalWidth: 6
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 6
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 138
+    spriteName: Arm_R
+    atlasIndex: 0
+    uMin: 0.45348838
+    vMin: 0.9238281
+    uMax: 0.4883721
+    vMax: 0.9375
+    originalWidth: 6
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 6
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 139
+    spriteName: Arm_L
+    atlasIndex: 0
+    uMin: 0.45348838
+    vMin: 0.9453125
+    uMax: 0.4883721
+    vMax: 0.9589844
+    originalWidth: 6
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 6
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 140
+    spriteName: Arm_R
+    atlasIndex: 0
+    uMin: 0.45348838
+    vMin: 0.9667969
+    uMax: 0.4883721
+    vMax: 0.98046875
+    originalWidth: 6
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 6
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 141
+    spriteName: Arm_L
+    atlasIndex: 0
+    uMin: 0.50581396
+    vMin: 0.859375
+    uMax: 0.5406977
+    vMax: 0.8730469
+    originalWidth: 6
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 6
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 142
+    spriteName: Arm_R
+    atlasIndex: 0
+    uMin: 0.5116279
+    vMin: 0.8183594
+    uMax: 0.54651165
+    vMax: 0.83203125
+    originalWidth: 6
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 6
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 143
+    spriteName: Arm_L
+    atlasIndex: 0
+    uMin: 0.51744187
+    vMin: 0.7890625
+    uMax: 0.5523256
+    vMax: 0.8027344
+    originalWidth: 6
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 6
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 144
+    spriteName: Arm_R
+    atlasIndex: 0
+    uMin: 0.50581396
+    vMin: 0.8808594
+    uMax: 0.5406977
+    vMax: 0.89453125
+    originalWidth: 6
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 6
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 145
+    spriteName: Arm_L
+    atlasIndex: 0
+    uMin: 0.50581396
+    vMin: 0.90234375
+    uMax: 0.5406977
+    vMax: 0.9160156
+    originalWidth: 6
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 6
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 146
+    spriteName: Arm_R
+    atlasIndex: 0
+    uMin: 0.5116279
+    vMin: 0.9238281
+    uMax: 0.54651165
+    vMax: 0.9375
+    originalWidth: 6
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 6
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 147
+    spriteName: Arm_L
+    atlasIndex: 0
+    uMin: 0.5116279
+    vMin: 0.9453125
+    uMax: 0.54651165
+    vMax: 0.9589844
+    originalWidth: 6
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 6
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 148
+    spriteName: Arm_R
+    atlasIndex: 0
+    uMin: 0.5116279
+    vMin: 0.9667969
+    uMax: 0.54651165
+    vMax: 0.98046875
+    originalWidth: 6
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 6
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 149
+    spriteName: Arm_L
+    atlasIndex: 0
+    uMin: 0.56395346
+    vMin: 0.83984375
+    uMax: 0.5988372
+    vMax: 0.8535156
+    originalWidth: 6
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 6
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 150
+    spriteName: Arm_R
+    atlasIndex: 0
+    uMin: 0.5697674
+    vMin: 0.8105469
+    uMax: 0.60465115
+    vMax: 0.82421875
+    originalWidth: 6
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 6
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 151
+    spriteName: Arm_L
+    atlasIndex: 0
+    uMin: 0.5755814
+    vMin: 0.7675781
+    uMax: 0.6104651
+    vMax: 0.78125
+    originalWidth: 6
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 6
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 152
+    spriteName: Arm_R
+    atlasIndex: 0
+    uMin: 0.5755814
+    vMin: 0.7890625
+    uMax: 0.6104651
+    vMax: 0.8027344
+    originalWidth: 6
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 6
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 153
+    spriteName: FaceHair_4
+    atlasIndex: 0
+    uMin: 0.90697676
+    vMin: 0.40039062
+    uMax: 0.95348835
+    vMax: 0.40820312
+    originalWidth: 14
+    originalHeight: 5
+    cropX: 3
+    cropY: 0
+    cropW: 8
+    cropH: 4
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 154
+    spriteName: FaceHair_2
+    atlasIndex: 0
+    uMin: 0.33139536
+    vMin: 0.83203125
+    uMax: 0.39534885
+    vMax: 0.8359375
+    originalWidth: 14
+    originalHeight: 5
+    cropX: 2
+    cropY: 2
+    cropW: 11
+    cropH: 2
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 155
+    spriteName: Left
+    atlasIndex: 0
+    uMin: 0.5116279
+    vMin: 0.83984375
+    uMax: 0.5406977
+    vMax: 0.8515625
+    originalWidth: 5
+    originalHeight: 6
+    cropX: 0
+    cropY: 0
+    cropW: 5
+    cropH: 6
+    pivotX: 0.4
+    pivotY: 0.5833333
+  - spriteId: 156
+    spriteName: Right
+    atlasIndex: 0
+    uMin: 0.37209302
+    vMin: 0.6875
+    uMax: 0.4011628
+    vMax: 0.69921875
+    originalWidth: 5
+    originalHeight: 6
+    cropX: 0
+    cropY: 0
+    cropW: 5
+    cropH: 6
+    pivotX: 0.7
+    pivotY: 0.6666667
+  - spriteId: 157
+    spriteName: Foot_R
+    atlasIndex: 0
+    uMin: 0.5755814
+    vMin: 0.45117188
+    uMax: 0.5988372
+    vMax: 0.46484375
+    originalWidth: 4
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 158
+    spriteName: Right
+    atlasIndex: 0
+    uMin: 0.9593023
+    vMin: 0.35546875
+    uMax: 0.98255813
+    vMax: 0.36914062
+    originalWidth: 4
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 159
+    spriteName: Foot_L
+    atlasIndex: 0
+    uMin: 0.9593023
+    vMin: 0.37695312
+    uMax: 0.98255813
+    vMax: 0.390625
+    originalWidth: 4
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 160
+    spriteName: Left
+    atlasIndex: 0
+    uMin: 0.56395346
+    vMin: 0.8613281
+    uMax: 0.5872093
+    vMax: 0.875
+    originalWidth: 4
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 161
+    spriteName: Foot_L
+    atlasIndex: 0
+    uMin: 0.56395346
+    vMin: 0.8828125
+    uMax: 0.5872093
+    vMax: 0.8964844
+    originalWidth: 4
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 162
+    spriteName: Foot_R
+    atlasIndex: 0
+    uMin: 0.5813953
+    vMin: 0.703125
+    uMax: 0.60465115
+    vMax: 0.7167969
+    originalWidth: 4
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 163
+    spriteName: Foot_L
+    atlasIndex: 0
+    uMin: 0.6104651
+    vMin: 0.67578125
+    uMax: 0.63372093
+    vMax: 0.6894531
+    originalWidth: 4
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 164
+    spriteName: Foot_R
+    atlasIndex: 0
+    uMin: 0.6511628
+    vMin: 0.6464844
+    uMax: 0.6744186
+    vMax: 0.66015625
+    originalWidth: 4
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 165
+    spriteName: Foot_L
+    atlasIndex: 0
+    uMin: 0.5813953
+    vMin: 0.7246094
+    uMax: 0.60465115
+    vMax: 0.73828125
+    originalWidth: 4
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 166
+    spriteName: Foot_R
+    atlasIndex: 0
+    uMin: 0.5813953
+    vMin: 0.74609375
+    uMax: 0.60465115
+    vMax: 0.7597656
+    originalWidth: 4
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 167
+    spriteName: Foot_L
+    atlasIndex: 0
+    uMin: 0.627907
+    vMin: 0.6972656
+    uMax: 0.6511628
+    vMax: 0.7109375
+    originalWidth: 4
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 168
+    spriteName: Foot_R
+    atlasIndex: 0
+    uMin: 0.65697676
+    vMin: 0.66796875
+    uMax: 0.6802326
+    vMax: 0.6816406
+    originalWidth: 4
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 169
+    spriteName: Foot_L
+    atlasIndex: 0
+    uMin: 0.627907
+    vMin: 0.71875
+    uMax: 0.6511628
+    vMax: 0.7324219
+    originalWidth: 4
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 170
+    spriteName: Foot_R
+    atlasIndex: 0
+    uMin: 0.627907
+    vMin: 0.7402344
+    uMax: 0.6511628
+    vMax: 0.75390625
+    originalWidth: 4
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 171
+    spriteName: Foot_L
+    atlasIndex: 0
+    uMin: 0.6976744
+    vMin: 0.6171875
+    uMax: 0.7209302
+    vMax: 0.6308594
+    originalWidth: 4
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 172
+    spriteName: Foot_R
+    atlasIndex: 0
+    uMin: 0.7093023
+    vMin: 0.5917969
+    uMax: 0.73255813
+    vMax: 0.60546875
+    originalWidth: 4
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 173
+    spriteName: Foot_L
+    atlasIndex: 0
+    uMin: 0.6976744
+    vMin: 0.6386719
+    uMax: 0.7209302
+    vMax: 0.65234375
+    originalWidth: 4
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 174
+    spriteName: Foot_R
+    atlasIndex: 0
+    uMin: 0.7209302
+    vMin: 0.546875
+    uMax: 0.74418604
+    vMax: 0.5605469
+    originalWidth: 4
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 175
+    spriteName: Foot_L
+    atlasIndex: 0
+    uMin: 0.7209302
+    vMin: 0.5683594
+    uMax: 0.74418604
+    vMax: 0.58203125
+    originalWidth: 4
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 176
+    spriteName: Foot_R
+    atlasIndex: 0
+    uMin: 0.5697674
+    vMin: 0.9042969
+    uMax: 0.59302324
+    vMax: 0.91796875
+    originalWidth: 4
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 177
+    spriteName: Foot_L
+    atlasIndex: 0
+    uMin: 0.6104651
+    vMin: 0.8613281
+    uMax: 0.63372093
+    vMax: 0.875
+    originalWidth: 4
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 178
+    spriteName: Foot_R
+    atlasIndex: 0
+    uMin: 0.6104651
+    vMin: 0.8828125
+    uMax: 0.63372093
+    vMax: 0.8964844
+    originalWidth: 4
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 179
+    spriteName: Foot_L
+    atlasIndex: 0
+    uMin: 0.622093
+    vMin: 0.83203125
+    uMax: 0.64534885
+    vMax: 0.8457031
+    originalWidth: 4
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 180
+    spriteName: Foot_R
+    atlasIndex: 0
+    uMin: 0.627907
+    vMin: 0.8105469
+    uMax: 0.6511628
+    vMax: 0.82421875
+    originalWidth: 4
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 181
+    spriteName: Foot_L
+    atlasIndex: 0
+    uMin: 0.63372093
+    vMin: 0.76171875
+    uMax: 0.65697676
+    vMax: 0.7753906
+    originalWidth: 4
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 182
+    spriteName: Foot_R
+    atlasIndex: 0
+    uMin: 0.63372093
+    vMin: 0.7832031
+    uMax: 0.65697676
+    vMax: 0.796875
+    originalWidth: 4
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 183
+    spriteName: Left
+    atlasIndex: 0
+    uMin: 0.6744186
+    vMin: 0.6894531
+    uMax: 0.6976744
+    vMax: 0.703125
+    originalWidth: 4
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 184
+    spriteName: Right
+    atlasIndex: 0
+    uMin: 0.70348835
+    vMin: 0.66015625
+    uMax: 0.7267442
+    vMax: 0.6738281
+    originalWidth: 4
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 185
+    spriteName: Left
+    atlasIndex: 0
+    uMin: 0.74418604
+    vMin: 0.61328125
+    uMax: 0.76744187
+    vMax: 0.6269531
+    originalWidth: 4
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 186
+    spriteName: Right
+    atlasIndex: 0
+    uMin: 0.75581396
+    vMin: 0.58984375
+    uMax: 0.7790698
+    vMax: 0.6035156
+    originalWidth: 4
+    originalHeight: 7
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 7
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 187
+    spriteName: Left
+    atlasIndex: 0
+    uMin: 0.075581394
+    vMin: 0.9824219
+    uMax: 0.10465116
+    vMax: 0.9921875
+    originalWidth: 5
+    originalHeight: 5
+    cropX: 0
+    cropY: 0
+    cropW: 5
+    cropH: 5
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 188
+    spriteName: Right
+    atlasIndex: 0
+    uMin: 0.74418604
+    vMin: 0.6347656
+    uMax: 0.7732558
+    vMax: 0.64453125
+    originalWidth: 5
+    originalHeight: 5
+    cropX: 0
+    cropY: 0
+    cropW: 5
+    cropH: 5
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 189
+    spriteName: Left
+    atlasIndex: 0
+    uMin: 0.7906977
+    vMin: 0.6113281
+    uMax: 0.8197674
+    vMax: 0.62109375
+    originalWidth: 5
+    originalHeight: 5
+    cropX: 0
+    cropY: 0
+    cropW: 5
+    cropH: 5
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 190
+    spriteName: Right
+    atlasIndex: 0
+    uMin: 0.76744187
+    vMin: 0.546875
+    uMax: 0.79651165
+    vMax: 0.5566406
+    originalWidth: 5
+    originalHeight: 5
+    cropX: 0
+    cropY: 0
+    cropW: 5
+    cropH: 5
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 191
+    spriteName: Left
+    atlasIndex: 0
+    uMin: 0.76744187
+    vMin: 0.5644531
+    uMax: 0.79651165
+    vMax: 0.57421875
+    originalWidth: 5
+    originalHeight: 5
+    cropX: 0
+    cropY: 0
+    cropW: 5
+    cropH: 5
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 192
+    spriteName: Right
+    atlasIndex: 0
+    uMin: 0.8023256
+    vMin: 0.58203125
+    uMax: 0.8313953
+    vMax: 0.5917969
+    originalWidth: 5
+    originalHeight: 5
+    cropX: 0
+    cropY: 0
+    cropW: 5
+    cropH: 5
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 193
+    spriteName: Left
+    atlasIndex: 0
+    uMin: 0.78488374
+    vMin: 0.5
+    uMax: 0.81395346
+    vMax: 0.5097656
+    originalWidth: 5
+    originalHeight: 5
+    cropX: 0
+    cropY: 0
+    cropW: 5
+    cropH: 5
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 194
+    spriteName: Right
+    atlasIndex: 0
+    uMin: 0.78488374
+    vMin: 0.5175781
+    uMax: 0.81395346
+    vMax: 0.52734375
+    originalWidth: 5
+    originalHeight: 5
+    cropX: 0
+    cropY: 0
+    cropW: 5
+    cropH: 5
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 195
+    spriteName: Left
+    atlasIndex: 0
+    uMin: 0.8197674
+    vMin: 0.46484375
+    uMax: 0.8488372
+    vMax: 0.47460938
+    originalWidth: 5
+    originalHeight: 5
+    cropX: 0
+    cropY: 0
+    cropW: 5
+    cropH: 5
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 196
+    spriteName: Right
+    atlasIndex: 0
+    uMin: 0.8197674
+    vMin: 0.48242188
+    uMax: 0.8488372
+    vMax: 0.4921875
+    originalWidth: 5
+    originalHeight: 5
+    cropX: 0
+    cropY: 0
+    cropW: 5
+    cropH: 5
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 197
+    spriteName: Left
+    atlasIndex: 0
+    uMin: 0.8197674
+    vMin: 0.53515625
+    uMax: 0.8488372
+    vMax: 0.5449219
+    originalWidth: 5
+    originalHeight: 5
+    cropX: 0
+    cropY: 0
+    cropW: 5
+    cropH: 5
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 198
+    spriteName: Right
+    atlasIndex: 0
+    uMin: 0.8197674
+    vMin: 0.5527344
+    uMax: 0.8488372
+    vMax: 0.5625
+    originalWidth: 5
+    originalHeight: 5
+    cropX: 0
+    cropY: 0
+    cropW: 5
+    cropH: 5
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 199
+    spriteName: Left
+    atlasIndex: 0
+    uMin: 0.8372093
+    vMin: 0.5
+    uMax: 0.86627907
+    vMax: 0.5097656
+    originalWidth: 5
+    originalHeight: 5
+    cropX: 0
+    cropY: 0
+    cropW: 5
+    cropH: 5
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 200
+    spriteName: Right
+    atlasIndex: 0
+    uMin: 0.8372093
+    vMin: 0.5175781
+    uMax: 0.86627907
+    vMax: 0.52734375
+    originalWidth: 5
+    originalHeight: 5
+    cropX: 0
+    cropY: 0
+    cropW: 5
+    cropH: 5
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 201
+    spriteName: Left
+    atlasIndex: 0
+    uMin: 0.872093
+    vMin: 0.46484375
+    uMax: 0.9011628
+    vMax: 0.47460938
+    originalWidth: 5
+    originalHeight: 5
+    cropX: 0
+    cropY: 0
+    cropW: 5
+    cropH: 5
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 202
+    spriteName: Right
+    atlasIndex: 0
+    uMin: 0.872093
+    vMin: 0.48242188
+    uMax: 0.9011628
+    vMax: 0.4921875
+    originalWidth: 5
+    originalHeight: 5
+    cropX: 0
+    cropY: 0
+    cropW: 5
+    cropH: 5
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 203
+    spriteName: Left
+    atlasIndex: 0
+    uMin: 0.877907
+    vMin: 0.43945312
+    uMax: 0.90697676
+    vMax: 0.44921875
+    originalWidth: 5
+    originalHeight: 5
+    cropX: 0
+    cropY: 0
+    cropW: 5
+    cropH: 5
+    pivotX: 0.4
+    pivotY: 0.6
+  - spriteId: 204
+    spriteName: Right
+    atlasIndex: 0
+    uMin: 0.6744186
+    vMin: 0.7109375
+    uMax: 0.70348835
+    vMax: 0.7207031
+    originalWidth: 5
+    originalHeight: 5
+    cropX: 0
+    cropY: 0
+    cropW: 5
+    cropH: 5
+    pivotX: 0.8
+    pivotY: 0.7
+  - spriteId: 205
+    spriteName: Foot_L
+    atlasIndex: 0
+    uMin: 0.7209302
+    vMin: 0.6816406
+    uMax: 0.74418604
+    vMax: 0.6933594
+    originalWidth: 4
+    originalHeight: 6
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 6
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 206
+    spriteName: Foot_R
+    atlasIndex: 0
+    uMin: 0.75
+    vMin: 0.65234375
+    uMax: 0.7732558
+    vMax: 0.6640625
+    originalWidth: 4
+    originalHeight: 6
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 6
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 207
+    spriteName: Left
+    atlasIndex: 0
+    uMin: 0.6744186
+    vMin: 0.7285156
+    uMax: 0.6976744
+    vMax: 0.7402344
+    originalWidth: 4
+    originalHeight: 6
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 6
+    pivotX: 0.5
+    pivotY: 0.5833333
+  - spriteId: 208
+    spriteName: Right
+    atlasIndex: 0
+    uMin: 0.5697674
+    vMin: 0.92578125
+    uMax: 0.59302324
+    vMax: 0.9375
+    originalWidth: 4
+    originalHeight: 6
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 6
+    pivotX: 0.5
+    pivotY: 0.5833333
+  - spriteId: 209
+    spriteName: Left
+    atlasIndex: 0
+    uMin: 0.5697674
+    vMin: 0.9453125
+    uMax: 0.59302324
+    vMax: 0.95703125
+    originalWidth: 4
+    originalHeight: 6
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 6
+    pivotX: 0.5
+    pivotY: 0.5833333
+  - spriteId: 210
+    spriteName: Right
+    atlasIndex: 0
+    uMin: 0.5697674
+    vMin: 0.96484375
+    uMax: 0.59302324
+    vMax: 0.9765625
+    originalWidth: 4
+    originalHeight: 6
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 6
+    pivotX: 0.5
+    pivotY: 0.5833333
+  - spriteId: 211
+    spriteName: Back
+    atlasIndex: 0
+    uMin: 0.5697674
+    vMin: 0.984375
+    uMax: 0.5988372
+    vMax: 0.9921875
+    originalWidth: 5
+    originalHeight: 4
+    cropX: 0
+    cropY: 0
+    cropW: 5
+    cropH: 4
+    pivotX: 0.19999999
+    pivotY: 0.375
+  - spriteId: 212
+    spriteName: FaceHair_5
+    atlasIndex: 0
+    uMin: 0.33139536
+    vMin: 0.7363281
+    uMax: 0.36627907
+    vMax: 0.7402344
+    originalWidth: 14
+    originalHeight: 5
+    cropX: 4
+    cropY: 0
+    cropW: 6
+    cropH: 2
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 213
+    spriteName: Back
+    atlasIndex: 0
+    uMin: 0.20348836
+    vMin: 0.9472656
+    uMax: 0.22093023
+    vMax: 0.9550781
+    originalWidth: 3
+    originalHeight: 4
+    cropX: 0
+    cropY: 0
+    cropW: 3
+    cropH: 4
+    pivotX: 0.16666666
+    pivotY: 0.375
+  - spriteId: 214
+    spriteName: Back
+    atlasIndex: 0
+    uMin: 0.09883721
+    vMin: 0.9121094
+    uMax: 0.11627907
+    vMax: 0.9199219
+    originalWidth: 3
+    originalHeight: 4
+    cropX: 0
+    cropY: 0
+    cropW: 3
+    cropH: 4
+    pivotX: 0.3333333
+    pivotY: 0.5
+  - spriteId: 215
+    spriteName: Back
+    atlasIndex: 0
+    uMin: 0.6976744
+    vMin: 0.48632812
+    uMax: 0.7209302
+    vMax: 0.4921875
+    originalWidth: 4
+    originalHeight: 3
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 3
+    pivotX: 0.25
+    pivotY: 0.5
+  - spriteId: 216
+    spriteName: Back
+    atlasIndex: 0
+    uMin: 0.70348835
+    vMin: 0.37890625
+    uMax: 0.7267442
+    vMax: 0.38476562
+    originalWidth: 4
+    originalHeight: 3
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 3
+    pivotX: 0.25
+    pivotY: 0.5
+  - spriteId: 217
+    spriteName: Back
+    atlasIndex: 0
+    uMin: 0.622093
+    vMin: 0.5
+    uMax: 0.64534885
+    vMax: 0.5058594
+    originalWidth: 4
+    originalHeight: 3
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 3
+    pivotX: 0.375
+    pivotY: 0.5
+  - spriteId: 218
+    spriteName: Back
+    atlasIndex: 0
+    uMin: 0.76744187
+    vMin: 0.421875
+    uMax: 0.78488374
+    vMax: 0.4296875
+    originalWidth: 3
+    originalHeight: 4
+    cropX: 0
+    cropY: 0
+    cropW: 3
+    cropH: 4
+    pivotX: 0.16666666
+    pivotY: 0.625
+  - spriteId: 219
+    spriteName: Back
+    atlasIndex: 0
+    uMin: 0.058139537
+    vMin: 0.8613281
+    uMax: 0.075581394
+    vMax: 0.8691406
+    originalWidth: 3
+    originalHeight: 4
+    cropX: 0
+    cropY: 0
+    cropW: 3
+    cropH: 4
+    pivotX: 0.33333334
+    pivotY: 0.625
+  - spriteId: 220
+    spriteName: Back
+    atlasIndex: 0
+    uMin: 0.058139537
+    vMin: 0.8769531
+    uMax: 0.075581394
+    vMax: 0.8828125
+    originalWidth: 3
+    originalHeight: 3
+    cropX: 0
+    cropY: 0
+    cropW: 3
+    cropH: 3
+    pivotX: 0.16666666
+    pivotY: 0.5
+  - spriteId: 221
+    spriteName: Back
+    atlasIndex: 0
+    uMin: 0.627907
+    vMin: 0.34375
+    uMax: 0.64534885
+    vMax: 0.34960938
+    originalWidth: 3
+    originalHeight: 3
+    cropX: 0
+    cropY: 0
+    cropW: 3
+    cropH: 3
+    pivotX: 0.16666666
+    pivotY: 0.5
+  - spriteId: 222
+    spriteName: Back
+    atlasIndex: 0
+    uMin: 0.4244186
+    vMin: 0.8183594
+    uMax: 0.44186047
+    vMax: 0.82421875
+    originalWidth: 3
+    originalHeight: 3
+    cropX: 0
+    cropY: 0
+    cropW: 3
+    cropH: 3
+    pivotX: 0.3333333
+    pivotY: 0.5
+  - spriteId: 223
+    spriteName: Back
+    atlasIndex: 0
+    uMin: 0.4651163
+    vMin: 0.8183594
+    uMax: 0.48255813
+    vMax: 0.82421875
+    originalWidth: 3
+    originalHeight: 3
+    cropX: 0
+    cropY: 0
+    cropW: 3
+    cropH: 3
+    pivotX: 0.16666666
+    pivotY: 0.5
+  - spriteId: 224
+    spriteName: Front
+    atlasIndex: 0
+    uMin: 0.22674419
+    vMin: 0.625
+    uMax: 0.25
+    vMax: 0.6269531
+    originalWidth: 4
+    originalHeight: 1
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 1
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 225
+    spriteName: Back
+    atlasIndex: 0
+    uMin: 0.41860464
+    vMin: 0.6484375
+    uMax: 0.44186047
+    vMax: 0.6503906
+    originalWidth: 4
+    originalHeight: 1
+    cropX: 0
+    cropY: 0
+    cropW: 4
+    cropH: 1
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 226
+    spriteName: Front
+    atlasIndex: 0
+    uMin: 0.78488374
+    vMin: 0.53515625
+    uMax: 0.79651165
+    vMax: 0.5390625
+    originalWidth: 2
+    originalHeight: 2
+    cropX: 0
+    cropY: 0
+    cropW: 2
+    cropH: 2
+    pivotX: 0.5
+    pivotY: 0.75
+  - spriteId: 227
+    spriteName: Front
+    atlasIndex: 0
+    uMin: 0.6686047
+    vMin: 0.34375
+    uMax: 0.6802326
+    vMax: 0.34765625
+    originalWidth: 2
+    originalHeight: 2
+    cropX: 0
+    cropY: 0
+    cropW: 2
+    cropH: 2
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 228
+    spriteName: Front
+    atlasIndex: 0
+    uMin: 0.4651163
+    vMin: 0.67578125
+    uMax: 0.47674417
+    vMax: 0.6796875
+    originalWidth: 2
+    originalHeight: 2
+    cropX: 0
+    cropY: 0
+    cropW: 2
+    cropH: 2
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 229
+    spriteName: Front
+    atlasIndex: 0
+    uMin: 0.22674419
+    vMin: 0.84375
+    uMax: 0.23837209
+    vMax: 0.84765625
+    originalWidth: 2
+    originalHeight: 2
+    cropX: 0
+    cropY: 0
+    cropW: 2
+    cropH: 2
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 230
+    spriteName: Back
+    atlasIndex: 0
+    uMin: 0.3255814
+    vMin: 0.87109375
+    uMax: 0.33139536
+    vMax: 0.8769531
+    originalWidth: 1
+    originalHeight: 3
+    cropX: 0
+    cropY: 0
+    cropW: 1
+    cropH: 3
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 231
+    spriteName: Back
+    atlasIndex: 0
+    uMin: 0.39534885
+    vMin: 0.7910156
+    uMax: 0.4011628
+    vMax: 0.796875
+    originalWidth: 1
+    originalHeight: 3
+    cropX: 0
+    cropY: 0
+    cropW: 1
+    cropH: 3
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 232
+    spriteName: Front
+    atlasIndex: 0
+    uMin: 0.30232558
+    vMin: 0.8046875
+    uMax: 0.30813953
+    vMax: 0.80859375
+    originalWidth: 1
+    originalHeight: 2
+    cropX: 0
+    cropY: 0
+    cropW: 1
+    cropH: 2
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 233
+    spriteName: Front
+    atlasIndex: 0
+    uMin: 0.41860464
+    vMin: 0.859375
+    uMax: 0.4244186
+    vMax: 0.86328125
+    originalWidth: 1
+    originalHeight: 2
+    cropX: 0
+    cropY: 0
+    cropW: 1
+    cropH: 2
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 234
+    spriteName: Front
+    atlasIndex: 0
+    uMin: 0.51744187
+    vMin: 0.703125
+    uMax: 0.5232558
+    vMax: 0.70703125
+    originalWidth: 1
+    originalHeight: 2
+    cropX: 0
+    cropY: 0
+    cropW: 1
+    cropH: 2
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 235
+    spriteName: Front
+    atlasIndex: 0
+    uMin: 0.54651165
+    vMin: 0.703125
+    uMax: 0.5523256
+    vMax: 0.70703125
+    originalWidth: 1
+    originalHeight: 2
+    cropX: 0
+    cropY: 0
+    cropW: 1
+    cropH: 2
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 236
+    spriteName: Front
+    atlasIndex: 0
+    uMin: 0.3895349
+    vMin: 0.9902344
+    uMax: 0.39534885
+    vMax: 0.9941406
+    originalWidth: 1
+    originalHeight: 2
+    cropX: 0
+    cropY: 0
+    cropW: 1
+    cropH: 2
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 237
+    spriteName: Front
+    atlasIndex: 0
+    uMin: 0.41860464
+    vMin: 0.9902344
+    uMax: 0.4244186
+    vMax: 0.9941406
+    originalWidth: 1
+    originalHeight: 2
+    cropX: 0
+    cropY: 0
+    cropW: 1
+    cropH: 2
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 238
+    spriteName: Front
+    atlasIndex: 0
+    uMin: 0.44767442
+    vMin: 0.9902344
+    uMax: 0.45348838
+    vMax: 0.9941406
+    originalWidth: 1
+    originalHeight: 2
+    cropX: 0
+    cropY: 0
+    cropW: 1
+    cropH: 2
+    pivotX: 0.5
+    pivotY: 0.5
+  - spriteId: 239
+    spriteName: Front
+    atlasIndex: 0
+    uMin: 0.8197674
+    vMin: 0.5703125
+    uMax: 0.8255814
+    vMax: 0.57421875
+    originalWidth: 1
+    originalHeight: 2
+    cropX: 0
+    cropY: 0
+    cropW: 1
+    cropH: 2
+    pivotX: 0
+    pivotY: 0.5
+  - spriteId: 240
+    spriteName: Front
+    atlasIndex: 0
+    uMin: 0.1627907
+    vMin: 0.30859375
+    uMax: 0.16860466
+    vMax: 0.31054688
+    originalWidth: 1
+    originalHeight: 1
+    cropX: 0
+    cropY: 0
+    cropW: 1
+    cropH: 1
+    pivotX: 1
+    pivotY: 1
+  - spriteId: 241
+    spriteName: Front
+    atlasIndex: 0
+    uMin: 0.22674419
+    vMin: 0.85546875
+    uMax: 0.23255815
+    vMax: 0.8574219
+    originalWidth: 1
+    originalHeight: 1
+    cropX: 0
+    cropY: 0
+    cropW: 1
+    cropH: 1
+    pivotX: 0
+    pivotY: 0
+  slots:
+  - slotId: 0
+    slotKey: Root.BodySet.P_Body.P_Back.Back
+    slotName: Back
+    aliasName: backback
+    defaultSpriteId: 2
+    availableSpriteIds: 25000000260000003300000038000000020000006800000021000000
+    canBeEmpty: 1
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: -100
+    sortingLayerId: 0
+    sortingLayerName: Default
+  - slotId: 1
+    slotKey: Root.BodySet.P_Body.Body
+    slotName: Body
+    aliasName: ---
+    defaultSpriteId: 75
+    availableSpriteIds: 4b000000
+    canBeEmpty: 1
+    localPosition: {x: 0, y: -0.015625, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 0
+    sortingLayerId: 0
+    sortingLayerName: Default
+  - slotId: 2
+    slotKey: Root.BodySet.P_Body.Body.P_ClothBody.ClothBody
+    slotName: ClothBody
+    aliasName: ---
+    defaultSpriteId: 97
+    availableSpriteIds: 61000000
+    canBeEmpty: 1
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 1
+    sortingLayerId: 0
+    sortingLayerName: Default
+  - slotId: 3
+    slotKey: Root.BodySet.P_Body.Body.P_ArmorBody.BodyArmor
+    slotName: BodyArmor
+    aliasName: ---
+    defaultSpriteId: 76
+    availableSpriteIds: 4c000000
+    canBeEmpty: 1
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 2
+    sortingLayerId: 0
+    sortingLayerName: Default
+  - slotId: 4
+    slotKey: Root.BodySet.P_Body.HeadSet.P_Head.P_Hair.7_Hair
+    slotName: 7_Hair
+    aliasName: hair
+    defaultSpriteId: 26
+    availableSpriteIds: 190000000b0000000d00000011000000060000000c000000170000000a0000001a000000
+    canBeEmpty: 1
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 6
+    sortingLayerId: 0
+    sortingLayerName: Default
+  - slotId: 5
+    slotKey: Root.BodySet.P_Body.HeadSet.P_Head.P_Head.5_Head
+    slotName: 5_Head
+    aliasName: ---
+    defaultSpriteId: 27
+    availableSpriteIds: 1b000000
+    canBeEmpty: 1
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 5
+    sortingLayerId: 0
+    sortingLayerName: Default
+  - slotId: 6
+    slotKey: Root.BodySet.P_Body.HeadSet.P_Head.P_Mustache.6_FaceHair
+    slotName: 6_FaceHair
+    aliasName: faceHair
+    defaultSpriteId: 154
+    availableSpriteIds: 6e0000009a0000007700000099000000d4000000
+    canBeEmpty: 1
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 5
+    sortingLayerId: 0
+    sortingLayerName: Default
+  - slotId: 7
+    slotKey: Root.BodySet.P_Body.HeadSet.P_Head.P_Eye.P_REye.PivotBack.Back
+    slotName: Back
+    aliasName: ---
+    defaultSpriteId: 220
+    availableSpriteIds: dc000000
+    canBeEmpty: 1
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 6
+    sortingLayerId: 0
+    sortingLayerName: Default
+  - slotId: 8
+    slotKey: Root.BodySet.P_Body.HeadSet.P_Head.P_Eye.P_REye.PivotFront.Front
+    slotName: Front
+    aliasName: ---
+    defaultSpriteId: 232
+    availableSpriteIds: e8000000
+    canBeEmpty: 1
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 7
+    sortingLayerId: 0
+    sortingLayerName: Default
+  - slotId: 9
+    slotKey: Root.BodySet.P_Body.HeadSet.P_Head.P_Eye.P_LEye.PivotBack.Back
+    slotName: Back
+    aliasName: ---
+    defaultSpriteId: 220
+    availableSpriteIds: dc000000
+    canBeEmpty: 1
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 6
+    sortingLayerId: 0
+    sortingLayerName: Default
+  - slotId: 10
+    slotKey: Root.BodySet.P_Body.HeadSet.P_Head.P_Eye.P_LEye.PivotFront.Front
+    slotName: Front
+    aliasName: ---
+    defaultSpriteId: 232
+    availableSpriteIds: e8000000
+    canBeEmpty: 1
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 6
+    sortingLayerId: 0
+    sortingLayerName: Default
+  - slotId: 11
+    slotKey: Root.BodySet.P_Body.HeadSet.P_Head.P_Eye.P_RClose.PivotFront.Front
+    slotName: Front
+    aliasName: ---
+    defaultSpriteId: 224
+    availableSpriteIds: e0000000
+    canBeEmpty: 1
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 7
+    sortingLayerId: 0
+    sortingLayerName: Default
+  - slotId: 12
+    slotKey: Root.BodySet.P_Body.HeadSet.P_Head.P_Eye.P_LClose.PivotFront.Front
+    slotName: Front
+    aliasName: ---
+    defaultSpriteId: 224
+    availableSpriteIds: e0000000
+    canBeEmpty: 1
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 6
+    sortingLayerId: 0
+    sortingLayerName: Default
+  - slotId: 13
+    slotKey: Root.BodySet.P_Body.HeadSet.P_Head.P_Helmet.11_Helmet1
+    slotName: 11_Helmet1
+    aliasName: helmet1
+    defaultSpriteId: -1
+    availableSpriteIds: 01000000120000000f00000013000000070000000800000014000000180000000900000005000000
+    canBeEmpty: 1
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 11
+    sortingLayerId: 0
+    sortingLayerName: Default
+  - slotId: 14
+    slotKey: Root.BodySet.P_Body.HeadSet.P_Head.P_Helmet.12_Helmet2
+    slotName: 12_Helmet2
+    aliasName: helmet2
+    defaultSpriteId: 19
+    availableSpriteIds: 01000000120000000f00000013000000070000000800000014000000180000000900000005000000
+    canBeEmpty: 1
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 12
+    sortingLayerId: 0
+    sortingLayerName: Default
+  - slotId: 15
+    slotKey: Root.BodySet.P_Body.ArmSet.ArmL.P_LArm.P_Arm.20_L_Arm
+    slotName: 20_L_Arm
+    aliasName: ---
+    defaultSpriteId: 125
+    availableSpriteIds: 7d000000
+    canBeEmpty: 1
+    localPosition: {x: 0, y: 0, z: -0.000030830488}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 20
+    sortingLayerId: 0
+    sortingLayerName: Default
+  - slotId: 16
+    slotKey: Root.BodySet.P_Body.ArmSet.ArmL.P_LArm.P_Arm.20_L_Arm.P_LCArm.21_LCArm
+    slotName: 21_LCArm
+    aliasName: ---
+    defaultSpriteId: 126
+    availableSpriteIds: 7e000000
+    canBeEmpty: 1
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 21
+    sortingLayerId: 0
+    sortingLayerName: Default
+  - slotId: 17
+    slotKey: Root.BodySet.P_Body.ArmSet.ArmL.P_LArm.P_Arm.20_L_Arm.P_Shoulder.25_L_Shoulder
+    slotName: 25_L_Shoulder
+    aliasName: ---
+    defaultSpriteId: 120
+    availableSpriteIds: 78000000
+    canBeEmpty: 1
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 25
+    sortingLayerId: 0
+    sortingLayerName: Default
+  - slotId: 18
+    slotKey: Root.BodySet.P_Body.ArmSet.ArmL.P_LArm.P_Weapon.L_Weapon
+    slotName: L_Weapon
+    aliasName: lweapon
+    defaultSpriteId: 71
+    availableSpriteIds: 470000002a00000040000000430000002b00000066000000220000003200000010000000290000004600000004000000
+    canBeEmpty: 1
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: -0.0000068301883}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 19
+    sortingLayerId: 0
+    sortingLayerName: Default
+  - slotId: 19
+    slotKey: Root.BodySet.P_Body.ArmSet.ArmL.P_LArm.P_Shield.L_Shield
+    slotName: L_Shield
+    aliasName: lshield
+    defaultSpriteId: -1
+    availableSpriteIds: 67000000360000003c000000390000003a000000
+    canBeEmpty: 1
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: 25
+    sortingLayerId: 0
+    sortingLayerName: Default
+  - slotId: 20
+    slotKey: Root.BodySet.P_Body.ArmSet.ArmR.P_RArm.P_Arm.-20_R_Arm
+    slotName: -20_R_Arm
+    aliasName: ---
+    defaultSpriteId: 127
+    availableSpriteIds: 7f000000
+    canBeEmpty: 1
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: -20
+    sortingLayerId: 0
+    sortingLayerName: Default
+  - slotId: 21
+    slotKey: Root.BodySet.P_Body.ArmSet.ArmR.P_RArm.P_Arm.-20_R_Arm.P_RCArm.-19_RCArm
+    slotName: -19_RCArm
+    aliasName: ---
+    defaultSpriteId: 128
+    availableSpriteIds: 80000000
+    canBeEmpty: 1
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: 0.0000000049468736, y: 0.00000010672169, z: -0.00000042688674}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: -19
+    sortingLayerId: 0
+    sortingLayerName: Default
+  - slotId: 22
+    slotKey: Root.BodySet.P_Body.ArmSet.ArmR.P_RArm.P_Arm.-20_R_Arm.P_Shoulder.-15_R_Shoulder
+    slotName: -15_R_Shoulder
+    aliasName: ---
+    defaultSpriteId: 121
+    availableSpriteIds: 79000000
+    canBeEmpty: 1
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: -15
+    sortingLayerId: 0
+    sortingLayerName: Default
+  - slotId: 23
+    slotKey: Root.BodySet.P_Body.ArmSet.ArmR.P_RArm.P_Weapon.R_Weapon
+    slotName: R_Weapon
+    aliasName: rweapon
+    defaultSpriteId: 62
+    availableSpriteIds: 240000003e0000003b000000650000006a0000003f0000003700000015000000420000001600000003000000270000000e0000003400000035000000230000004a00000049000000760000003d000000
+    canBeEmpty: 1
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: -15
+    sortingLayerId: 0
+    sortingLayerName: Default
+  - slotId: 24
+    slotKey: Root.BodySet.P_Body.ArmSet.ArmR.P_RArm.P_Shield.R_Shield
+    slotName: R_Shield
+    aliasName: rshield
+    defaultSpriteId: 60
+    availableSpriteIds: 67000000360000003c000000390000003a000000
+    canBeEmpty: 1
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: -21
+    sortingLayerId: 0
+    sortingLayerName: Default
+  - slotId: 25
+    slotKey: Root.P_RFoot._12R_Foot
+    slotName: _12R_Foot
+    aliasName: ---
+    defaultSpriteId: 157
+    availableSpriteIds: 9d000000
+    canBeEmpty: 1
+    localPosition: {x: 0, y: -0.0625, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: -12
+    sortingLayerId: 0
+    sortingLayerName: Default
+  - slotId: 26
+    slotKey: Root.P_RFoot.P_RCloth._11R_Cloth
+    slotName: _11R_Cloth
+    aliasName: ---
+    defaultSpriteId: 158
+    availableSpriteIds: 9e000000
+    canBeEmpty: 1
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: -11
+    sortingLayerId: 0
+    sortingLayerName: Default
+  - slotId: 27
+    slotKey: Root.P_LFoot._3L_Foot
+    slotName: _3L_Foot
+    aliasName: ---
+    defaultSpriteId: 159
+    availableSpriteIds: 9f000000
+    canBeEmpty: 1
+    localPosition: {x: 0, y: -0.0625, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: -3
+    sortingLayerId: 0
+    sortingLayerName: Default
+  - slotId: 28
+    slotKey: Root.P_LFoot.P_LCloth._2L_Cloth
+    slotName: _2L_Cloth
+    aliasName: ---
+    defaultSpriteId: 160
+    availableSpriteIds: a0000000
+    canBeEmpty: 1
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    sortingOrder: -2
+    sortingLayerId: 0
+    sortingLayerName: Default
+  - slotId: 29
+    slotKey: Shadow.Shadow
+    slotName: Shadow
+    aliasName: shadow
+    defaultSpriteId: 0
+    availableSpriteIds: 00000000
+    canBeEmpty: 1
+    localPosition: {x: 0, y: 0.018000001, z: 0.00015256465}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 0.05, y: 0.015, z: 1}
+    sortingOrder: -50
+    sortingLayerId: 0
+    sortingLayerName: Default
+  groups:
+  - groupId: 1
+    groupName: bodyall
+    slotIndices: 01000000050000000f00000014000000190000001b000000
+    variants:
+    - variantName: Devil_1
+      spriteIds: 4d000000310000008100000082000000ce000000cd000000
+    - variantName: Elf_1
+      spriteIds: 4e0000001c0000008300000084000000a2000000a1000000
+    - variantName: Elf_2
+      spriteIds: 4b0000001b0000007d0000007f0000009d0000009f000000
+    - variantName: Human_1
+      spriteIds: 4f0000002c0000008600000085000000a4000000a3000000
+    - variantName: Human_2
+      spriteIds: 500000002d0000008700000088000000a6000000a5000000
+    - variantName: Human_3
+      spriteIds: 510000002e000000890000008a000000a8000000a7000000
+    - variantName: Human_4
+      spriteIds: 520000002f0000008b0000008c000000aa000000a9000000
+    - variantName: Human_5
+      spriteIds: 53000000300000008d0000008e000000ac000000ab000000
+    - variantName: Orc_1
+      spriteIds: 540000001d0000008f00000090000000ae000000ad000000
+    - variantName: Orc_2
+      spriteIds: 550000001e0000009100000092000000b0000000af000000
+    - variantName: Orc_3
+      spriteIds: 560000001f0000009300000094000000b2000000b1000000
+    - variantName: Orc_4
+      spriteIds: 57000000200000009500000096000000b4000000b3000000
+    - variantName: Skelton_1
+      spriteIds: 58000000280000009700000098000000b6000000b5000000
+  - groupId: 2
+    groupName: cloth
+    slotIndices: 020000001000000015000000
+    variants:
+    - variantName: Cloth_1
+      spriteIds: 59000000bb000000bc000000
+    - variantName: Cloth_2
+      spriteIds: 440000007200000073000000
+    - variantName: Cloth_3
+      spriteIds: 5a000000bd000000be000000
+    - variantName: Cloth_4
+      spriteIds: 5b000000bf000000c0000000
+    - variantName: Cloth_5
+      spriteIds: 5c000000c1000000c2000000
+    - variantName: Cloth_6
+      spriteIds: 5d000000c3000000c4000000
+    - variantName: Cloth_7
+      spriteIds: 48000000c5000000c6000000
+    - variantName: Cloth_8
+      spriteIds: 5e000000c7000000c8000000
+    - variantName: Cloth_9
+      spriteIds: 6f000000ffffffffffffffff
+    - variantName: Cloth_10
+      spriteIds: 62000000c9000000ca000000
+    - variantName: Cloth_11
+      spriteIds: 610000007e00000080000000
+    - variantName: Cloth_12
+      spriteIds: 630000007400000075000000
+    - variantName: F_SR_Cloth
+      spriteIds: 450000006c0000006d000000
+  - groupId: 3
+    groupName: armor
+    slotIndices: 030000001100000016000000
+    variants:
+    - variantName: Armor_1
+      spriteIds: 64000000cb000000cc000000
+    - variantName: Armor_2
+      spriteIds: 690000009b0000009c000000
+    - variantName: Armor_3
+      spriteIds: 5f0000007a0000007b000000
+    - variantName: Armor_4
+      spriteIds: 4c0000007800000079000000
+    - variantName: Armor_5
+      spriteIds: 6b000000ffffffffffffffff
+    - variantName: Armor_6
+      spriteIds: 7c000000ffffffffffffffff
+    - variantName: Armor_7
+      spriteIds: 60000000ffffffffffffffff
+    - variantName: Armor_8
+      spriteIds: 410000007000000071000000
+  - groupId: 4
+    groupName: eye_open
+    slotIndices: 0700000008000000090000000a000000
+    variants:
+    - variantName: Eye
+      spriteIds: e6000000e9000000e6000000e9000000
+    - variantName: Eye0
+      spriteIds: e7000000ea000000e7000000ea000000
+    - variantName: Eye1
+      spriteIds: dc000000e8000000dc000000e8000000
+    - variantName: Eye2
+      spriteIds: dd000000eb000000dd000000eb000000
+    - variantName: Eye3
+      spriteIds: d5000000ec000000d5000000ec000000
+    - variantName: Eye4
+      spriteIds: d6000000e2000000d6000000e2000000
+    - variantName: Eye5
+      spriteIds: de000000e3000000de000000e3000000
+    - variantName: Eye6
+      spriteIds: d7000000e4000000d7000000e4000000
+    - variantName: Eye7
+      spriteIds: d3000000e5000000d3000000e5000000
+    - variantName: Eye8
+      spriteIds: df000000ed000000df000000ed000000
+    - variantName: Eye9
+      spriteIds: d8000000f0000000d8000000f0000000
+    - variantName: Eye10
+      spriteIds: d9000000f1000000d9000000f1000000
+    - variantName: Eye11
+      spriteIds: da000000ee000000da000000ee000000
+    - variantName: Eye16
+      spriteIds: db000000ef000000db000000ef000000
+  - groupId: 5
+    groupName: eye_close
+    slotIndices: 0b0000000c000000
+    variants:
+    - variantName: Eye_Close
+      spriteIds: e0000000e0000000
+  - groupId: 6
+    groupName: pant
+    slotIndices: 1a0000001c000000
+    variants:
+    - variantName: F_SR_Pants
+      spriteIds: d0000000cf000000
+    - variantName: Foot_1
+      spriteIds: b8000000b7000000
+    - variantName: Foot_2
+      spriteIds: ba000000b9000000
+    - variantName: Foot_3
+      spriteIds: 9e000000a0000000
+    - variantName: Foot_4
+      spriteIds: d2000000d1000000
+  animations: []

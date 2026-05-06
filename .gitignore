@@ -1,9 +1,6 @@
 /.vscode/
-/Assets/
 /Library/
 /Logs/
-/Packages/
 /ProjectSettings/
 /Temp/
-/UserSettings/
 *.csproj

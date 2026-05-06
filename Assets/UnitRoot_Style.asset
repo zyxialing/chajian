@@ -1,0 +1,1669 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80474761da2b4cc4cb24ae15487aa171, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  generatedAt: 2026-05-02 19:52:59
+  slotDefs:
+  - slotId: 0
+    slotKey: Root.BodySet.P_Body.P_Back.Back
+    slotName: Back
+    objectName: Back
+    path: UnitRoot/Root/BodySet/P_Body/P_Back/Back
+    parentPath: UnitRoot/Root/BodySet/P_Body/P_Back
+    depth: 5
+    activeSelf: 1
+    activeInHierarchy: 1
+    rendererEnabled: 1
+    defaultVisible: 1
+    sortingLayerId: 0
+    sortingLayerName: Default
+    sortingOrder: -100
+    color: {r: 1, g: 1, b: 1, a: 1}
+    spriteName: Back_3
+    spriteAssetPath: Assets/SPUM/Resources/Addons/Ver300/0_Unit/0_Sprite/10_Back/7_Back/Back_3.png
+    spriteGuid: 55bcacee5fd41654190caeb4abc46562
+    spriteRectSize: {x: 17, y: 12}
+    spritePivotPixels: {x: 8, y: 11}
+    spritePivotNormalized: {x: 0.47058824, y: 0.9166667}
+    spriteBoundsSize: {x: 0.53125, y: 0.375}
+    pixelsPerUnit: 32
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    bindPose00: 0.99825114
+    bindPose01: 0.059115075
+    bindPose02: -0.0003525173
+    bindPose03: 0
+    bindPose10: -0.059115246
+    bindPose11: 0.9982511
+    bindPose12: -0.00049424736
+    bindPose13: 0
+    bindPose20: 0.0003226824
+    bindPose21: 0.00051422184
+    bindPose22: 0.9999999
+    bindPose23: 0
+    bindPose30: 0.033917066
+    bindPose31: 0.38231742
+    bindPose32: 0.0001011468
+    bindPose33: 1
+    maskInteraction: 0
+    drawOrder: 0
+    internalOrder: -10000
+  - slotId: 1
+    slotKey: Root.BodySet.P_Body.Body
+    slotName: Body
+    objectName: Body
+    path: UnitRoot/Root/BodySet/P_Body/Body
+    parentPath: UnitRoot/Root/BodySet/P_Body
+    depth: 4
+    activeSelf: 1
+    activeInHierarchy: 1
+    rendererEnabled: 1
+    defaultVisible: 1
+    sortingLayerId: 0
+    sortingLayerName: Default
+    sortingOrder: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    spriteName: Body
+    spriteAssetPath: Assets/SPUM/Resources/Addons/Legacy/0_Unit/0_Sprite/1_Body/Human_1.png
+    spriteGuid: d24756e433435b249be5737019648d69
+    spriteRectSize: {x: 12, y: 10}
+    spritePivotPixels: {x: 6, y: 5}
+    spritePivotNormalized: {x: 0.5, y: 0.5}
+    spriteBoundsSize: {x: 0.375, y: 0.3125}
+    pixelsPerUnit: 32
+    localPosition: {x: 0, y: -0.015625, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    bindPose00: 0.9995874
+    bindPose01: -0.028724095
+    bindPose02: -0.000010982442
+    bindPose03: 0
+    bindPose10: 0.028724093
+    bindPose11: 0.9995869
+    bindPose12: 0.0009949728
+    bindPose13: 0
+    bindPose20: -0.00001759992
+    bindPose21: -0.0009948778
+    bindPose22: 0.9999995
+    bindPose23: 0
+    bindPose30: -0.00044881395
+    bindPose31: 0.26563147
+    bindPose32: -0.00001554645
+    bindPose33: 1
+    maskInteraction: 0
+    drawOrder: 1
+    internalOrder: 1
+  - slotId: 2
+    slotKey: Root.BodySet.P_Body.Body.P_ClothBody.ClothBody
+    slotName: ClothBody
+    objectName: ClothBody
+    path: UnitRoot/Root/BodySet/P_Body/Body/P_ClothBody/ClothBody
+    parentPath: UnitRoot/Root/BodySet/P_Body/Body/P_ClothBody
+    depth: 6
+    activeSelf: 1
+    activeInHierarchy: 1
+    rendererEnabled: 1
+    defaultVisible: 1
+    sortingLayerId: 0
+    sortingLayerName: Default
+    sortingOrder: 1
+    color: {r: 1, g: 1, b: 1, a: 1}
+    spriteName: Body
+    spriteAssetPath: Assets/SPUM/Resources/Addons/Legacy/0_Unit/0_Sprite/2_Cloth/Cloth_12.png
+    spriteGuid: 32122f87f9a7545c38ded467d0b41b13
+    spriteRectSize: {x: 12, y: 9}
+    spritePivotPixels: {x: 6, y: 5}
+    spritePivotNormalized: {x: 0.5, y: 0.5555556}
+    spriteBoundsSize: {x: 0.375, y: 0.28125}
+    pixelsPerUnit: 32
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    bindPose00: 0.9995874
+    bindPose01: -0.028724095
+    bindPose02: -0.000010982442
+    bindPose03: 0
+    bindPose10: 0.028724093
+    bindPose11: 0.9995869
+    bindPose12: 0.0009949728
+    bindPose13: 0
+    bindPose20: -0.00001759992
+    bindPose21: -0.0009948778
+    bindPose22: 0.9999995
+    bindPose23: 0
+    bindPose30: -0.00044881395
+    bindPose31: 0.26563147
+    bindPose32: -0.00001554645
+    bindPose33: 1
+    maskInteraction: 0
+    drawOrder: 2
+    internalOrder: 102
+  - slotId: 3
+    slotKey: Root.BodySet.P_Body.Body.P_ArmorBody.BodyArmor
+    slotName: BodyArmor
+    objectName: BodyArmor
+    path: UnitRoot/Root/BodySet/P_Body/Body/P_ArmorBody/BodyArmor
+    parentPath: UnitRoot/Root/BodySet/P_Body/Body/P_ArmorBody
+    depth: 6
+    activeSelf: 1
+    activeInHierarchy: 1
+    rendererEnabled: 1
+    defaultVisible: 1
+    sortingLayerId: 0
+    sortingLayerName: Default
+    sortingOrder: 2
+    color: {r: 1, g: 1, b: 1, a: 1}
+    spriteName: Body
+    spriteAssetPath: Assets/SPUM/Resources/Addons/Legacy/0_Unit/0_Sprite/5_Armor/Armor_5.png
+    spriteGuid: 304386aad927e4d3281f05c505bb4f54
+    spriteRectSize: {x: 12, y: 9}
+    spritePivotPixels: {x: 6, y: 5.5}
+    spritePivotNormalized: {x: 0.5, y: 0.6111111}
+    spriteBoundsSize: {x: 0.375, y: 0.28125}
+    pixelsPerUnit: 32
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    bindPose00: 0.9995874
+    bindPose01: -0.028724095
+    bindPose02: -0.000010982442
+    bindPose03: 0
+    bindPose10: 0.028724093
+    bindPose11: 0.9995869
+    bindPose12: 0.0009949728
+    bindPose13: 0
+    bindPose20: -0.00001759992
+    bindPose21: -0.0009948778
+    bindPose22: 0.9999995
+    bindPose23: 0
+    bindPose30: 0
+    bindPose31: 0.28125
+    bindPose32: 0
+    bindPose33: 1
+    maskInteraction: 0
+    drawOrder: 3
+    internalOrder: 203
+  - slotId: 4
+    slotKey: Root.BodySet.P_Body.HeadSet.P_Head.P_Hair.7_Hair
+    slotName: 7_Hair
+    objectName: 7_Hair
+    path: UnitRoot/Root/BodySet/P_Body/HeadSet/P_Head/P_Hair/7_Hair
+    parentPath: UnitRoot/Root/BodySet/P_Body/HeadSet/P_Head/P_Hair
+    depth: 7
+    activeSelf: 1
+    activeInHierarchy: 1
+    rendererEnabled: 1
+    defaultVisible: 1
+    sortingLayerId: 0
+    sortingLayerName: Default
+    sortingOrder: 6
+    color: {r: 0.4431373, g: 0.14901961, b: 0.14901961, a: 1}
+    spriteName: New_Hair_03
+    spriteAssetPath: Assets/SPUM/Resources/Addons/Ver300/0_Unit/0_Sprite/2_Hair/New_Hair_03.png
+    spriteGuid: 102ccb2edb80b48cca0777e2323f1a7c
+    spriteRectSize: {x: 32, y: 32}
+    spritePivotPixels: {x: 15.5, y: 17}
+    spritePivotNormalized: {x: 0.484375, y: 0.53125}
+    spriteBoundsSize: {x: 1, y: 1}
+    pixelsPerUnit: 32
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    bindPose00: 0.9995874
+    bindPose01: -0.028724095
+    bindPose02: -0.000010982442
+    bindPose03: 0
+    bindPose10: 0.028724093
+    bindPose11: 0.9995869
+    bindPose12: 0.0009949728
+    bindPose13: 0
+    bindPose20: -0.00001759992
+    bindPose21: -0.0009948778
+    bindPose22: 0.9999995
+    bindPose23: 0
+    bindPose30: -0.0035005761
+    bindPose31: 0.70339954
+    bindPose32: 0.00041992575
+    bindPose33: 1
+    maskInteraction: 1
+    drawOrder: 4
+    internalOrder: 604
+  - slotId: 5
+    slotKey: Root.BodySet.P_Body.HeadSet.P_Head.P_Head.5_Head
+    slotName: 5_Head
+    objectName: 5_Head
+    path: UnitRoot/Root/BodySet/P_Body/HeadSet/P_Head/P_Head/5_Head
+    parentPath: UnitRoot/Root/BodySet/P_Body/HeadSet/P_Head/P_Head
+    depth: 7
+    activeSelf: 1
+    activeInHierarchy: 1
+    rendererEnabled: 1
+    defaultVisible: 1
+    sortingLayerId: 0
+    sortingLayerName: Default
+    sortingOrder: 5
+    color: {r: 1, g: 1, b: 1, a: 1}
+    spriteName: Head
+    spriteAssetPath: Assets/SPUM/Resources/Addons/Legacy/0_Unit/0_Sprite/1_Body/Human_1.png
+    spriteGuid: d24756e433435b249be5737019648d69
+    spriteRectSize: {x: 17, y: 15}
+    spritePivotPixels: {x: 8.5, y: 7.5}
+    spritePivotNormalized: {x: 0.5, y: 0.5}
+    spriteBoundsSize: {x: 0.53125, y: 0.46875}
+    pixelsPerUnit: 32
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    bindPose00: 0.9995874
+    bindPose01: -0.028724095
+    bindPose02: -0.000010982442
+    bindPose03: 0
+    bindPose10: 0.028724093
+    bindPose11: 0.9995869
+    bindPose12: 0.0009949728
+    bindPose13: 0
+    bindPose20: -0.00001759992
+    bindPose21: -0.0009948778
+    bindPose22: 0.9999995
+    bindPose23: 0
+    bindPose30: -0.0066422736
+    bindPose31: 0.5940697
+    bindPose32: 0.0003111006
+    bindPose33: 1
+    maskInteraction: 0
+    drawOrder: 5
+    internalOrder: 505
+  - slotId: 6
+    slotKey: Root.BodySet.P_Body.HeadSet.P_Head.P_Mustache.6_FaceHair
+    slotName: 6_FaceHair
+    objectName: 6_FaceHair
+    path: UnitRoot/Root/BodySet/P_Body/HeadSet/P_Head/P_Mustache/6_FaceHair
+    parentPath: UnitRoot/Root/BodySet/P_Body/HeadSet/P_Head/P_Mustache
+    depth: 7
+    activeSelf: 1
+    activeInHierarchy: 1
+    rendererEnabled: 1
+    defaultVisible: 0
+    sortingLayerId: 0
+    sortingLayerName: Default
+    sortingOrder: 5
+    color: {r: 1, g: 1, b: 1, a: 1}
+    spriteName: 
+    spriteAssetPath: 
+    spriteGuid: 
+    spriteRectSize: {x: 0, y: 0}
+    spritePivotPixels: {x: 0, y: 0}
+    spritePivotNormalized: {x: 0, y: 0}
+    spriteBoundsSize: {x: 0, y: 0}
+    pixelsPerUnit: 0
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    bindPose00: 0.9995874
+    bindPose01: -0.028724095
+    bindPose02: -0.000010982442
+    bindPose03: 0
+    bindPose10: 0.028724093
+    bindPose11: 0.9995869
+    bindPose12: 0.0009949728
+    bindPose13: 0
+    bindPose20: -0.00001759992
+    bindPose21: -0.0009948778
+    bindPose22: 0.9999995
+    bindPose23: 0
+    bindPose30: -0.057986073
+    bindPose31: 0.4392307
+    bindPose32: 0.0001561509
+    bindPose33: 1
+    maskInteraction: 0
+    drawOrder: 6
+    internalOrder: 506
+  - slotId: 7
+    slotKey: Root.BodySet.P_Body.HeadSet.P_Head.P_Eye.P_REye.PivotBack.Back
+    slotName: Back
+    objectName: Back
+    path: UnitRoot/Root/BodySet/P_Body/HeadSet/P_Head/P_Eye/P_REye/PivotBack/Back
+    parentPath: UnitRoot/Root/BodySet/P_Body/HeadSet/P_Head/P_Eye/P_REye/PivotBack
+    depth: 9
+    activeSelf: 1
+    activeInHierarchy: 1
+    rendererEnabled: 1
+    defaultVisible: 1
+    sortingLayerId: 0
+    sortingLayerName: Default
+    sortingOrder: 6
+    color: {r: 1, g: 1, b: 1, a: 1}
+    spriteName: Back
+    spriteAssetPath: Assets/SPUM/Resources/Addons/Legacy/0_Unit/0_Sprite/0_Eye/Eye9.png
+    spriteGuid: fd89b34b9905449b48f67c1c962e8ee7
+    spriteRectSize: {x: 4, y: 3}
+    spritePivotPixels: {x: 1, y: 1.5}
+    spritePivotNormalized: {x: 0.25, y: 0.5}
+    spriteBoundsSize: {x: 0.125, y: 0.09375}
+    pixelsPerUnit: 32
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    bindPose00: 0.9995874
+    bindPose01: -0.028724095
+    bindPose02: -0.000010982442
+    bindPose03: 0
+    bindPose10: 0.028724093
+    bindPose11: 0.9995869
+    bindPose12: 0.0009949728
+    bindPose13: 0
+    bindPose20: -0.00001759992
+    bindPose21: -0.0009948778
+    bindPose22: 0.9999995
+    bindPose23: 0
+    bindPose30: 0.022799576
+    bindPose31: 0.53069794
+    bindPose32: 0.0002485716
+    bindPose33: 1
+    maskInteraction: 0
+    drawOrder: 7
+    internalOrder: 607
+  - slotId: 8
+    slotKey: Root.BodySet.P_Body.HeadSet.P_Head.P_Eye.P_REye.PivotFront.Front
+    slotName: Front
+    objectName: Front
+    path: UnitRoot/Root/BodySet/P_Body/HeadSet/P_Head/P_Eye/P_REye/PivotFront/Front
+    parentPath: UnitRoot/Root/BodySet/P_Body/HeadSet/P_Head/P_Eye/P_REye/PivotFront
+    depth: 9
+    activeSelf: 1
+    activeInHierarchy: 1
+    rendererEnabled: 1
+    defaultVisible: 1
+    sortingLayerId: 0
+    sortingLayerName: Default
+    sortingOrder: 7
+    color: {r: 0.4431373, g: 0.14901961, b: 0.14901961, a: 1}
+    spriteName: Front
+    spriteAssetPath: Assets/SPUM/Resources/Addons/Legacy/0_Unit/0_Sprite/0_Eye/Eye9.png
+    spriteGuid: fd89b34b9905449b48f67c1c962e8ee7
+    spriteRectSize: {x: 1, y: 1}
+    spritePivotPixels: {x: 1, y: 1}
+    spritePivotNormalized: {x: 1, y: 1}
+    spriteBoundsSize: {x: 0.03125, y: 0.03125}
+    pixelsPerUnit: 32
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    bindPose00: 0.9995874
+    bindPose01: -0.028724095
+    bindPose02: -0.000010982442
+    bindPose03: 0
+    bindPose10: 0.028724093
+    bindPose11: 0.9995869
+    bindPose12: 0.0009949728
+    bindPose13: 0
+    bindPose20: -0.00001759992
+    bindPose21: -0.0009948778
+    bindPose22: 0.9999995
+    bindPose23: 0
+    bindPose30: 0.022350762
+    bindPose31: 0.5150794
+    bindPose32: 0.00023302514
+    bindPose33: 1
+    maskInteraction: 0
+    drawOrder: 8
+    internalOrder: 708
+  - slotId: 9
+    slotKey: Root.BodySet.P_Body.HeadSet.P_Head.P_Eye.P_LEye.PivotBack.Back
+    slotName: Back
+    objectName: Back
+    path: UnitRoot/Root/BodySet/P_Body/HeadSet/P_Head/P_Eye/P_LEye/PivotBack/Back
+    parentPath: UnitRoot/Root/BodySet/P_Body/HeadSet/P_Head/P_Eye/P_LEye/PivotBack
+    depth: 9
+    activeSelf: 1
+    activeInHierarchy: 1
+    rendererEnabled: 1
+    defaultVisible: 1
+    sortingLayerId: 0
+    sortingLayerName: Default
+    sortingOrder: 6
+    color: {r: 1, g: 1, b: 1, a: 1}
+    spriteName: Back
+    spriteAssetPath: Assets/SPUM/Resources/Addons/Legacy/0_Unit/0_Sprite/0_Eye/Eye9.png
+    spriteGuid: fd89b34b9905449b48f67c1c962e8ee7
+    spriteRectSize: {x: 4, y: 3}
+    spritePivotPixels: {x: 1, y: 1.5}
+    spritePivotNormalized: {x: 0.25, y: 0.5}
+    spriteBoundsSize: {x: 0.125, y: 0.09375}
+    pixelsPerUnit: 32
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    bindPose00: -0.9995874
+    bindPose01: 0.028724095
+    bindPose02: 0.000010982442
+    bindPose03: 0
+    bindPose10: 0.028724093
+    bindPose11: 0.9995869
+    bindPose12: 0.0009949728
+    bindPose13: 0
+    bindPose20: -0.00001759992
+    bindPose21: -0.0009948778
+    bindPose22: 0.9999995
+    bindPose23: 0
+    bindPose30: -0.13338597
+    bindPose31: 0.53518605
+    bindPose32: 0.00025028744
+    bindPose33: 1
+    maskInteraction: 0
+    drawOrder: 9
+    internalOrder: 609
+  - slotId: 10
+    slotKey: Root.BodySet.P_Body.HeadSet.P_Head.P_Eye.P_LEye.PivotFront.Front
+    slotName: Front
+    objectName: Front
+    path: UnitRoot/Root/BodySet/P_Body/HeadSet/P_Head/P_Eye/P_LEye/PivotFront/Front
+    parentPath: UnitRoot/Root/BodySet/P_Body/HeadSet/P_Head/P_Eye/P_LEye/PivotFront
+    depth: 9
+    activeSelf: 1
+    activeInHierarchy: 1
+    rendererEnabled: 1
+    defaultVisible: 1
+    sortingLayerId: 0
+    sortingLayerName: Default
+    sortingOrder: 6
+    color: {r: 0.4431373, g: 0.14901961, b: 0.14901961, a: 1}
+    spriteName: Front
+    spriteAssetPath: Assets/SPUM/Resources/Addons/Legacy/0_Unit/0_Sprite/0_Eye/Eye9.png
+    spriteGuid: fd89b34b9905449b48f67c1c962e8ee7
+    spriteRectSize: {x: 1, y: 1}
+    spritePivotPixels: {x: 1, y: 1}
+    spritePivotNormalized: {x: 1, y: 1}
+    spriteBoundsSize: {x: 0.03125, y: 0.03125}
+    pixelsPerUnit: 32
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    bindPose00: -0.9995874
+    bindPose01: 0.028724095
+    bindPose02: 0.000010982442
+    bindPose03: 0
+    bindPose10: 0.028724093
+    bindPose11: 0.9995869
+    bindPose12: 0.0009949728
+    bindPose13: 0
+    bindPose20: -0.00001759992
+    bindPose21: -0.0009948778
+    bindPose22: 0.9999995
+    bindPose23: 0
+    bindPose30: -0.13383476
+    bindPose31: 0.5195675
+    bindPose32: 0.00023474132
+    bindPose33: 1
+    maskInteraction: 0
+    drawOrder: 10
+    internalOrder: 610
+  - slotId: 11
+    slotKey: Root.BodySet.P_Body.HeadSet.P_Head.P_Eye.P_RClose.PivotFront.Front
+    slotName: Front
+    objectName: Front
+    path: UnitRoot/Root/BodySet/P_Body/HeadSet/P_Head/P_Eye/P_RClose/PivotFront/Front
+    parentPath: UnitRoot/Root/BodySet/P_Body/HeadSet/P_Head/P_Eye/P_RClose/PivotFront
+    depth: 9
+    activeSelf: 1
+    activeInHierarchy: 0
+    rendererEnabled: 1
+    defaultVisible: 1
+    sortingLayerId: 0
+    sortingLayerName: Default
+    sortingOrder: 7
+    color: {r: 0.2784314, g: 0.101960786, b: 0.101960786, a: 1}
+    spriteName: Back
+    spriteAssetPath: Assets/SPUM/Resources/Addons/Legacy/0_Unit/0_Sprite/0_EyeClose/Eye_Close.png
+    spriteGuid: 36f759892f0769b42aeec738b5a2fce9
+    spriteRectSize: {x: 4, y: 1}
+    spritePivotPixels: {x: 2, y: 0.5}
+    spritePivotNormalized: {x: 0.5, y: 0.5}
+    spriteBoundsSize: {x: 0.125, y: 0.03125}
+    pixelsPerUnit: 32
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    bindPose00: 0.9995874
+    bindPose01: -0.028724095
+    bindPose02: -0.000010982442
+    bindPose03: 0
+    bindPose10: 0.028724093
+    bindPose11: 0.9995869
+    bindPose12: 0.0009949728
+    bindPose13: 0
+    bindPose20: -0.00001759992
+    bindPose21: -0.0009948778
+    bindPose22: 0.9999995
+    bindPose23: 0
+    bindPose30: 0.022350762
+    bindPose31: 0.5150794
+    bindPose32: 0.00023302514
+    bindPose33: 1
+    maskInteraction: 0
+    drawOrder: 11
+    internalOrder: 711
+  - slotId: 12
+    slotKey: Root.BodySet.P_Body.HeadSet.P_Head.P_Eye.P_LClose.PivotFront.Front
+    slotName: Front
+    objectName: Front
+    path: UnitRoot/Root/BodySet/P_Body/HeadSet/P_Head/P_Eye/P_LClose/PivotFront/Front
+    parentPath: UnitRoot/Root/BodySet/P_Body/HeadSet/P_Head/P_Eye/P_LClose/PivotFront
+    depth: 9
+    activeSelf: 1
+    activeInHierarchy: 0
+    rendererEnabled: 1
+    defaultVisible: 1
+    sortingLayerId: 0
+    sortingLayerName: Default
+    sortingOrder: 6
+    color: {r: 0.2784314, g: 0.101960786, b: 0.101960786, a: 1}
+    spriteName: Back
+    spriteAssetPath: Assets/SPUM/Resources/Addons/Legacy/0_Unit/0_Sprite/0_EyeClose/Eye_Close.png
+    spriteGuid: 36f759892f0769b42aeec738b5a2fce9
+    spriteRectSize: {x: 4, y: 1}
+    spritePivotPixels: {x: 2, y: 0.5}
+    spritePivotNormalized: {x: 0.5, y: 0.5}
+    spriteBoundsSize: {x: 0.125, y: 0.03125}
+    pixelsPerUnit: 32
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    bindPose00: -0.9995874
+    bindPose01: 0.028724095
+    bindPose02: 0.000010982442
+    bindPose03: 0
+    bindPose10: 0.028724093
+    bindPose11: 0.9995869
+    bindPose12: 0.0009949728
+    bindPose13: 0
+    bindPose20: -0.00001759992
+    bindPose21: -0.0009948778
+    bindPose22: 0.9999995
+    bindPose23: 0
+    bindPose30: -0.13383476
+    bindPose31: 0.5195675
+    bindPose32: 0.00023474132
+    bindPose33: 1
+    maskInteraction: 0
+    drawOrder: 12
+    internalOrder: 612
+  - slotId: 13
+    slotKey: Root.BodySet.P_Body.HeadSet.P_Head.P_Helmet.11_Helmet1
+    slotName: 11_Helmet1
+    objectName: 11_Helmet1
+    path: UnitRoot/Root/BodySet/P_Body/HeadSet/P_Head/P_Helmet/11_Helmet1
+    parentPath: UnitRoot/Root/BodySet/P_Body/HeadSet/P_Head/P_Helmet
+    depth: 7
+    activeSelf: 1
+    activeInHierarchy: 1
+    rendererEnabled: 1
+    defaultVisible: 0
+    sortingLayerId: 0
+    sortingLayerName: Default
+    sortingOrder: 11
+    color: {r: 1, g: 1, b: 1, a: 1}
+    spriteName: 
+    spriteAssetPath: 
+    spriteGuid: 
+    spriteRectSize: {x: 0, y: 0}
+    spritePivotPixels: {x: 0, y: 0}
+    spritePivotNormalized: {x: 0, y: 0}
+    spriteBoundsSize: {x: 0, y: 0}
+    pixelsPerUnit: 0
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    bindPose00: 0.9995874
+    bindPose01: -0.028724095
+    bindPose02: -0.000010982442
+    bindPose03: 0
+    bindPose10: 0.028724093
+    bindPose11: 0.9995869
+    bindPose12: 0.0009949728
+    bindPose13: 0
+    bindPose20: -0.00001759992
+    bindPose21: -0.0009948778
+    bindPose22: 0.9999995
+    bindPose23: 0
+    bindPose30: -0.004398205
+    bindPose31: 0.6721624
+    bindPose32: 0.00038883282
+    bindPose33: 1
+    maskInteraction: 0
+    drawOrder: 13
+    internalOrder: 1113
+  - slotId: 14
+    slotKey: Root.BodySet.P_Body.HeadSet.P_Head.P_Helmet.12_Helmet2
+    slotName: 12_Helmet2
+    objectName: '12_Helmet2 '
+    path: 'UnitRoot/Root/BodySet/P_Body/HeadSet/P_Head/P_Helmet/12_Helmet2 '
+    parentPath: UnitRoot/Root/BodySet/P_Body/HeadSet/P_Head/P_Helmet
+    depth: 7
+    activeSelf: 1
+    activeInHierarchy: 1
+    rendererEnabled: 1
+    defaultVisible: 1
+    sortingLayerId: 0
+    sortingLayerName: Default
+    sortingOrder: 12
+    color: {r: 1, g: 1, b: 1, a: 1}
+    spriteName: Helmet_3
+    spriteAssetPath: Assets/SPUM/Resources/Addons/Legacy/0_Unit/0_Sprite/4_Helmet/Helmet_3.png
+    spriteGuid: e18834699727342f7b28af1c655acc6f
+    spriteRectSize: {x: 20, y: 17}
+    spritePivotPixels: {x: 10.5, y: 9}
+    spritePivotNormalized: {x: 0.525, y: 0.5294118}
+    spriteBoundsSize: {x: 0.625, y: 0.53125}
+    pixelsPerUnit: 32
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    bindPose00: 0.9995874
+    bindPose01: -0.028724095
+    bindPose02: -0.000010982442
+    bindPose03: 0
+    bindPose10: 0.028724093
+    bindPose11: 0.9995869
+    bindPose12: 0.0009949728
+    bindPose13: 0
+    bindPose20: -0.00001759992
+    bindPose21: -0.0009948778
+    bindPose22: 0.9999995
+    bindPose23: 0
+    bindPose30: -0.004398205
+    bindPose31: 0.6721624
+    bindPose32: 0.00038883282
+    bindPose33: 1
+    maskInteraction: 0
+    drawOrder: 14
+    internalOrder: 1214
+  - slotId: 15
+    slotKey: Root.BodySet.P_Body.ArmSet.ArmL.P_LArm.P_Arm.20_L_Arm
+    slotName: 20_L_Arm
+    objectName: 20_L_Arm
+    path: UnitRoot/Root/BodySet/P_Body/ArmSet/ArmL/P_LArm/P_Arm/20_L_Arm
+    parentPath: UnitRoot/Root/BodySet/P_Body/ArmSet/ArmL/P_LArm/P_Arm
+    depth: 8
+    activeSelf: 1
+    activeInHierarchy: 1
+    rendererEnabled: 1
+    defaultVisible: 1
+    sortingLayerId: 0
+    sortingLayerName: Default
+    sortingOrder: 20
+    color: {r: 1, g: 1, b: 1, a: 1}
+    spriteName: Arm_L
+    spriteAssetPath: Assets/SPUM/Resources/Addons/Legacy/0_Unit/0_Sprite/1_Body/Human_1.png
+    spriteGuid: d24756e433435b249be5737019648d69
+    spriteRectSize: {x: 6, y: 7}
+    spritePivotPixels: {x: 3, y: 3.5}
+    spritePivotNormalized: {x: 0.5, y: 0.5}
+    spriteBoundsSize: {x: 0.1875, y: 0.21875}
+    pixelsPerUnit: 32
+    localPosition: {x: 0, y: 0, z: -0.000030830488}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    bindPose00: 0.9995874
+    bindPose01: -0.028724095
+    bindPose02: -0.000010982442
+    bindPose03: 0
+    bindPose10: 0.028724093
+    bindPose11: 0.9995869
+    bindPose12: 0.0009949728
+    bindPose13: 0
+    bindPose20: -0.00001759992
+    bindPose21: -0.0009948778
+    bindPose22: 0.9999995
+    bindPose23: 0
+    bindPose30: 0.18742263
+    bindPose31: 0.27586427
+    bindPose32: -0.00003288984
+    bindPose33: 1
+    maskInteraction: 0
+    drawOrder: 15
+    internalOrder: 2015
+  - slotId: 16
+    slotKey: Root.BodySet.P_Body.ArmSet.ArmL.P_LArm.P_Arm.20_L_Arm.P_LCArm.21_LCArm
+    slotName: 21_LCArm
+    objectName: 21_LCArm
+    path: UnitRoot/Root/BodySet/P_Body/ArmSet/ArmL/P_LArm/P_Arm/20_L_Arm/P_LCArm/21_LCArm
+    parentPath: UnitRoot/Root/BodySet/P_Body/ArmSet/ArmL/P_LArm/P_Arm/20_L_Arm/P_LCArm
+    depth: 10
+    activeSelf: 1
+    activeInHierarchy: 1
+    rendererEnabled: 1
+    defaultVisible: 1
+    sortingLayerId: 0
+    sortingLayerName: Default
+    sortingOrder: 21
+    color: {r: 1, g: 1, b: 1, a: 1}
+    spriteName: Left
+    spriteAssetPath: Assets/SPUM/Resources/Addons/Legacy/0_Unit/0_Sprite/2_Cloth/Cloth_12.png
+    spriteGuid: 32122f87f9a7545c38ded467d0b41b13
+    spriteRectSize: {x: 7, y: 8}
+    spritePivotPixels: {x: 2.5, y: 5}
+    spritePivotNormalized: {x: 0.35714287, y: 0.625}
+    spriteBoundsSize: {x: 0.21875, y: 0.25}
+    pixelsPerUnit: 32
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    bindPose00: 0.9995874
+    bindPose01: -0.028724095
+    bindPose02: -0.000010982442
+    bindPose03: 0
+    bindPose10: 0.028724093
+    bindPose11: 0.9995869
+    bindPose12: 0.0009949728
+    bindPose13: 0
+    bindPose20: -0.00001759992
+    bindPose21: -0.0009948778
+    bindPose22: 0.9999995
+    bindPose23: 0
+    bindPose30: 0.1727017
+    bindPose31: 0.30755016
+    bindPose32: -0.0000016252783
+    bindPose33: 1
+    maskInteraction: 0
+    drawOrder: 16
+    internalOrder: 2116
+  - slotId: 17
+    slotKey: Root.BodySet.P_Body.ArmSet.ArmL.P_LArm.P_Arm.20_L_Arm.P_Shoulder.25_L_Shoulder
+    slotName: 25_L_Shoulder
+    objectName: 25_L_Shoulder
+    path: UnitRoot/Root/BodySet/P_Body/ArmSet/ArmL/P_LArm/P_Arm/20_L_Arm/P_Shoulder/25_L_Shoulder
+    parentPath: UnitRoot/Root/BodySet/P_Body/ArmSet/ArmL/P_LArm/P_Arm/20_L_Arm/P_Shoulder
+    depth: 10
+    activeSelf: 1
+    activeInHierarchy: 1
+    rendererEnabled: 1
+    defaultVisible: 0
+    sortingLayerId: 0
+    sortingLayerName: Default
+    sortingOrder: 25
+    color: {r: 1, g: 1, b: 1, a: 1}
+    spriteName: 
+    spriteAssetPath: 
+    spriteGuid: 
+    spriteRectSize: {x: 0, y: 0}
+    spritePivotPixels: {x: 0, y: 0}
+    spritePivotNormalized: {x: 0, y: 0}
+    spriteBoundsSize: {x: 0, y: 0}
+    pixelsPerUnit: 0
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    bindPose00: 0.8800301
+    bindPose01: 0.47491777
+    bindPose02: 0.00048797525
+    bindPose03: 0
+    bindPose10: -0.474918
+    bindPose11: 0.8800296
+    bindPose12: 0.00086716015
+    bindPose13: 0
+    bindPose20: -0.000017601782
+    bindPose21: -0.0009948751
+    bindPose22: 0.9999995
+    bindPose23: 0
+    bindPose30: 0.14325985
+    bindPose31: 0.37092197
+    bindPose32: 0.000060903636
+    bindPose33: 1
+    maskInteraction: 0
+    drawOrder: 17
+    internalOrder: 2517
+  - slotId: 18
+    slotKey: Root.BodySet.P_Body.ArmSet.ArmL.P_LArm.P_Weapon.L_Weapon
+    slotName: L_Weapon
+    objectName: L_Weapon
+    path: UnitRoot/Root/BodySet/P_Body/ArmSet/ArmL/P_LArm/P_Weapon/L_Weapon
+    parentPath: UnitRoot/Root/BodySet/P_Body/ArmSet/ArmL/P_LArm/P_Weapon
+    depth: 8
+    activeSelf: 1
+    activeInHierarchy: 1
+    rendererEnabled: 1
+    defaultVisible: 1
+    sortingLayerId: 0
+    sortingLayerName: Default
+    sortingOrder: 19
+    color: {r: 1, g: 1, b: 1, a: 1}
+    spriteName: Soon_Spear
+    spriteAssetPath: Assets/SPUM/Resources/Addons/Legacy/0_Unit/0_Sprite/6_Weapons/4_Spear/Soon_Spear.png
+    spriteGuid: 667027c43d7d57c4baac5ef2a590761b
+    spriteRectSize: {x: 10, y: 33}
+    spritePivotPixels: {x: 5, y: 5.4999995}
+    spritePivotNormalized: {x: 0.5, y: 0.16666666}
+    spriteBoundsSize: {x: 0.3125, y: 1.03125}
+    pixelsPerUnit: 32
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: -0.0000068301883}
+    localScale: {x: 1, y: 1, z: 1}
+    bindPose00: -0.4749179
+    bindPose01: 0.8800297
+    bindPose02: 0.0008671632
+    bindPose03: 0
+    bindPose10: -0.88003016
+    bindPose11: -0.47491765
+    bindPose12: -0.0004879763
+    bindPose13: 0
+    bindPose20: -0.00001759992
+    bindPose21: -0.0009948778
+    bindPose22: 0.9999995
+    bindPose23: 0
+    bindPose30: 0.2177621
+    bindPose31: 0.24372952
+    bindPose32: -0.000033495264
+    bindPose33: 1
+    maskInteraction: 0
+    drawOrder: 18
+    internalOrder: 1918
+  - slotId: 19
+    slotKey: Root.BodySet.P_Body.ArmSet.ArmL.P_LArm.P_Shield.L_Shield
+    slotName: L_Shield
+    objectName: L_Shield
+    path: UnitRoot/Root/BodySet/P_Body/ArmSet/ArmL/P_LArm/P_Shield/L_Shield
+    parentPath: UnitRoot/Root/BodySet/P_Body/ArmSet/ArmL/P_LArm/P_Shield
+    depth: 8
+    activeSelf: 1
+    activeInHierarchy: 1
+    rendererEnabled: 1
+    defaultVisible: 0
+    sortingLayerId: 0
+    sortingLayerName: Default
+    sortingOrder: 25
+    color: {r: 1, g: 1, b: 1, a: 1}
+    spriteName: 
+    spriteAssetPath: 
+    spriteGuid: 
+    spriteRectSize: {x: 0, y: 0}
+    spritePivotPixels: {x: 0, y: 0}
+    spritePivotNormalized: {x: 0, y: 0}
+    spriteBoundsSize: {x: 0, y: 0}
+    pixelsPerUnit: 0
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    bindPose00: 0.6865041
+    bindPose01: -0.72712564
+    bindPose02: -0.0007113174
+    bindPose03: 0
+    bindPose10: 0.727126
+    bindPose11: 0.6865037
+    bindPose12: 0.0006957868
+    bindPose13: 0
+    bindPose20: -0.00001759992
+    bindPose21: -0.0009948778
+    bindPose22: 0.9999995
+    bindPose23: 0
+    bindPose30: 0.2177621
+    bindPose31: 0.24372952
+    bindPose32: -0.000033495264
+    bindPose33: 1
+    maskInteraction: 0
+    drawOrder: 19
+    internalOrder: 2519
+  - slotId: 20
+    slotKey: Root.BodySet.P_Body.ArmSet.ArmR.P_RArm.P_Arm.-20_R_Arm
+    slotName: -20_R_Arm
+    objectName: -20_R_Arm
+    path: UnitRoot/Root/BodySet/P_Body/ArmSet/ArmR/P_RArm/P_Arm/-20_R_Arm
+    parentPath: UnitRoot/Root/BodySet/P_Body/ArmSet/ArmR/P_RArm/P_Arm
+    depth: 8
+    activeSelf: 1
+    activeInHierarchy: 1
+    rendererEnabled: 1
+    defaultVisible: 1
+    sortingLayerId: 0
+    sortingLayerName: Default
+    sortingOrder: -20
+    color: {r: 1, g: 1, b: 1, a: 1}
+    spriteName: Arm_R
+    spriteAssetPath: Assets/SPUM/Resources/Addons/Legacy/0_Unit/0_Sprite/1_Body/Human_1.png
+    spriteGuid: d24756e433435b249be5737019648d69
+    spriteRectSize: {x: 6, y: 7}
+    spritePivotPixels: {x: 3, y: 3.5}
+    spritePivotNormalized: {x: 0.5, y: 0.5}
+    spriteBoundsSize: {x: 0.1875, y: 0.21875}
+    pixelsPerUnit: 32
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    bindPose00: 0.9995874
+    bindPose01: -0.028724095
+    bindPose02: -0.000010982442
+    bindPose03: 0
+    bindPose10: 0.028724093
+    bindPose11: 0.9995869
+    bindPose12: 0.0009949728
+    bindPose13: 0
+    bindPose20: -0.00001759992
+    bindPose21: -0.0009948778
+    bindPose22: 0.9999995
+    bindPose23: 0
+    bindPose30: -0.18742265
+    bindPose31: 0.28663576
+    bindPose32: 0.0000020590642
+    bindPose33: 1
+    maskInteraction: 0
+    drawOrder: 20
+    internalOrder: -1980
+  - slotId: 21
+    slotKey: Root.BodySet.P_Body.ArmSet.ArmR.P_RArm.P_Arm.-20_R_Arm.P_RCArm.-19_RCArm
+    slotName: -19_RCArm
+    objectName: -19_RCArm
+    path: UnitRoot/Root/BodySet/P_Body/ArmSet/ArmR/P_RArm/P_Arm/-20_R_Arm/P_RCArm/-19_RCArm
+    parentPath: UnitRoot/Root/BodySet/P_Body/ArmSet/ArmR/P_RArm/P_Arm/-20_R_Arm/P_RCArm
+    depth: 10
+    activeSelf: 1
+    activeInHierarchy: 1
+    rendererEnabled: 1
+    defaultVisible: 1
+    sortingLayerId: 0
+    sortingLayerName: Default
+    sortingOrder: -19
+    color: {r: 1, g: 1, b: 1, a: 1}
+    spriteName: Right
+    spriteAssetPath: Assets/SPUM/Resources/Addons/Legacy/0_Unit/0_Sprite/2_Cloth/Cloth_12.png
+    spriteGuid: 32122f87f9a7545c38ded467d0b41b13
+    spriteRectSize: {x: 7, y: 8}
+    spritePivotPixels: {x: 4.5, y: 5.5}
+    spritePivotNormalized: {x: 0.64285713, y: 0.6875}
+    spriteBoundsSize: {x: 0.21875, y: 0.25}
+    pixelsPerUnit: 32
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: 0.0000000049468736, y: 0.00000010672169, z: -0.00000042688674}
+    localScale: {x: 1, y: 1, z: 1}
+    bindPose00: 0.9995874
+    bindPose01: -0.028724102
+    bindPose02: -0.000010984304
+    bindPose03: 0
+    bindPose10: 0.0287241
+    bindPose11: 0.9995869
+    bindPose12: 0.0009949729
+    bindPose13: 0
+    bindPose20: -0.000017598059
+    bindPose21: -0.0009948779
+    bindPose22: 0.9999995
+    bindPose23: 0
+    bindPose30: -0.17090644
+    bindPose31: 0.31742406
+    bindPose32: 0.000032980795
+    bindPose33: 1
+    maskInteraction: 0
+    drawOrder: 21
+    internalOrder: -1879
+  - slotId: 22
+    slotKey: Root.BodySet.P_Body.ArmSet.ArmR.P_RArm.P_Arm.-20_R_Arm.P_Shoulder.-15_R_Shoulder
+    slotName: -15_R_Shoulder
+    objectName: -15_R_Shoulder
+    path: UnitRoot/Root/BodySet/P_Body/ArmSet/ArmR/P_RArm/P_Arm/-20_R_Arm/P_Shoulder/-15_R_Shoulder
+    parentPath: UnitRoot/Root/BodySet/P_Body/ArmSet/ArmR/P_RArm/P_Arm/-20_R_Arm/P_Shoulder
+    depth: 10
+    activeSelf: 1
+    activeInHierarchy: 1
+    rendererEnabled: 1
+    defaultVisible: 0
+    sortingLayerId: 0
+    sortingLayerName: Default
+    sortingOrder: -15
+    color: {r: 1, g: 1, b: 1, a: 1}
+    spriteName: 
+    spriteAssetPath: 
+    spriteGuid: 
+    spriteRectSize: {x: 0, y: 0}
+    spritePivotPixels: {x: 0, y: 0}
+    spritePivotNormalized: {x: 0, y: 0}
+    spriteBoundsSize: {x: 0, y: 0}
+    pixelsPerUnit: 0
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    bindPose00: 0.85130614
+    bindPose01: -0.5246692
+    bindPose02: -0.0005069987
+    bindPose03: 0
+    bindPose10: 0.5246694
+    bindPose11: 0.85130566
+    bindPose12: 0.00085617916
+    bindPose13: 0
+    bindPose20: -0.00001759992
+    bindPose21: -0.0009948784
+    bindPose22: 0.9999995
+    bindPose23: 0
+    bindPose30: -0.122255534
+    bindPose31: 0.37855178
+    bindPose32: 0.00009465148
+    bindPose33: 1
+    maskInteraction: 0
+    drawOrder: 22
+    internalOrder: -1478
+  - slotId: 23
+    slotKey: Root.BodySet.P_Body.ArmSet.ArmR.P_RArm.P_Weapon.R_Weapon
+    slotName: R_Weapon
+    objectName: R_Weapon
+    path: UnitRoot/Root/BodySet/P_Body/ArmSet/ArmR/P_RArm/P_Weapon/R_Weapon
+    parentPath: UnitRoot/Root/BodySet/P_Body/ArmSet/ArmR/P_RArm/P_Weapon
+    depth: 8
+    activeSelf: 1
+    activeInHierarchy: 1
+    rendererEnabled: 1
+    defaultVisible: 1
+    sortingLayerId: 0
+    sortingLayerName: Default
+    sortingOrder: -15
+    color: {r: 1, g: 1, b: 1, a: 1}
+    spriteName: New_Weapon_19
+    spriteAssetPath: Assets/SPUM/Resources/Addons/Ver300/0_Unit/0_Sprite/8_Weapons/0_Sword/New_Weapon_19.png
+    spriteGuid: 01c22b6d497e0484db647e3d384dfe67
+    spriteRectSize: {x: 32, y: 32}
+    spritePivotPixels: {x: 16.5, y: 13}
+    spritePivotNormalized: {x: 0.515625, y: 0.40625}
+    spriteBoundsSize: {x: 1, y: 1}
+    pixelsPerUnit: 32
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    bindPose00: 0.52466947
+    bindPose01: 0.8513056
+    bindPose02: 0.0008561802
+    bindPose03: 0
+    bindPose10: -0.8513061
+    bindPose11: 0.52466923
+    bindPose12: 0.000506996
+    bindPose13: 0
+    bindPose20: -0.00001759992
+    bindPose21: -0.0009948778
+    bindPose22: 0.9999995
+    bindPose23: 0
+    bindPose30: -0.23517594
+    bindPose31: 0.25674513
+    bindPose32: -0.000028518976
+    bindPose33: 1
+    maskInteraction: 0
+    drawOrder: 23
+    internalOrder: -1477
+  - slotId: 24
+    slotKey: Root.BodySet.P_Body.ArmSet.ArmR.P_RArm.P_Shield.R_Shield
+    slotName: R_Shield
+    objectName: R_Shield
+    path: UnitRoot/Root/BodySet/P_Body/ArmSet/ArmR/P_RArm/P_Shield/R_Shield
+    parentPath: UnitRoot/Root/BodySet/P_Body/ArmSet/ArmR/P_RArm/P_Shield
+    depth: 8
+    activeSelf: 1
+    activeInHierarchy: 1
+    rendererEnabled: 1
+    defaultVisible: 0
+    sortingLayerId: 0
+    sortingLayerName: Default
+    sortingOrder: -21
+    color: {r: 1, g: 1, b: 1, a: 1}
+    spriteName: 
+    spriteAssetPath: 
+    spriteGuid: 
+    spriteRectSize: {x: 0, y: 0}
+    spritePivotPixels: {x: 0, y: 0}
+    spritePivotNormalized: {x: 0, y: 0}
+    spriteBoundsSize: {x: 0, y: 0}
+    pixelsPerUnit: 0
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    bindPose00: 0.72712606
+    bindPose01: 0.68650365
+    bindPose02: 0.0006957859
+    bindPose03: 0
+    bindPose10: -0.68650407
+    bindPose11: 0.7271257
+    bindPose12: 0.0007113175
+    bindPose13: 0
+    bindPose20: -0.00001759992
+    bindPose21: -0.0009948778
+    bindPose22: 0.9999995
+    bindPose23: 0
+    bindPose30: -0.23517594
+    bindPose31: 0.25674513
+    bindPose32: -0.000028518976
+    bindPose33: 1
+    maskInteraction: 0
+    drawOrder: 24
+    internalOrder: -2076
+  - slotId: 25
+    slotKey: Root.P_RFoot._12R_Foot
+    slotName: _12R_Foot
+    objectName: _12R_Foot
+    path: UnitRoot/Root/P_RFoot/_12R_Foot
+    parentPath: UnitRoot/Root/P_RFoot
+    depth: 3
+    activeSelf: 1
+    activeInHierarchy: 1
+    rendererEnabled: 1
+    defaultVisible: 1
+    sortingLayerId: 0
+    sortingLayerName: Default
+    sortingOrder: -12
+    color: {r: 1, g: 1, b: 1, a: 1}
+    spriteName: Foot_L
+    spriteAssetPath: Assets/SPUM/Resources/Addons/Legacy/0_Unit/0_Sprite/1_Body/Human_1.png
+    spriteGuid: d24756e433435b249be5737019648d69
+    spriteRectSize: {x: 4, y: 7}
+    spritePivotPixels: {x: 2, y: 3.5}
+    spritePivotNormalized: {x: 0.5, y: 0.5}
+    spriteBoundsSize: {x: 0.125, y: 0.21875}
+    pixelsPerUnit: 32
+    localPosition: {x: 0, y: -0.0625, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    bindPose00: 1
+    bindPose01: 0
+    bindPose02: 0
+    bindPose03: 0
+    bindPose10: 0
+    bindPose11: 1
+    bindPose12: 0
+    bindPose13: 0
+    bindPose20: 0
+    bindPose21: 0
+    bindPose22: 1
+    bindPose23: 0
+    bindPose30: -0.125
+    bindPose31: 0.125
+    bindPose32: 0
+    bindPose33: 1
+    maskInteraction: 0
+    drawOrder: 25
+    internalOrder: -1175
+  - slotId: 26
+    slotKey: Root.P_RFoot.P_RCloth._11R_Cloth
+    slotName: _11R_Cloth
+    objectName: _11R_Cloth
+    path: UnitRoot/Root/P_RFoot/P_RCloth/_11R_Cloth
+    parentPath: UnitRoot/Root/P_RFoot/P_RCloth
+    depth: 4
+    activeSelf: 1
+    activeInHierarchy: 1
+    rendererEnabled: 1
+    defaultVisible: 1
+    sortingLayerId: 0
+    sortingLayerName: Default
+    sortingOrder: -11
+    color: {r: 1, g: 1, b: 1, a: 1}
+    spriteName: Right
+    spriteAssetPath: Assets/SPUM/Resources/Addons/Ver300/0_Unit/0_Sprite/5_Pant/New_Pant_05.png
+    spriteGuid: e7d2d469a9a9548bcb468fc5ff5792c1
+    spriteRectSize: {x: 4, y: 7}
+    spritePivotPixels: {x: 2, y: 3.5}
+    spritePivotNormalized: {x: 0.5, y: 0.5}
+    spriteBoundsSize: {x: 0.125, y: 0.21875}
+    pixelsPerUnit: 32
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    bindPose00: 1
+    bindPose01: 0
+    bindPose02: 0
+    bindPose03: 0
+    bindPose10: 0
+    bindPose11: 1
+    bindPose12: 0
+    bindPose13: 0
+    bindPose20: 0
+    bindPose21: 0
+    bindPose22: 1
+    bindPose23: 0
+    bindPose30: -0.125
+    bindPose31: 0.125
+    bindPose32: 0
+    bindPose33: 1
+    maskInteraction: 0
+    drawOrder: 26
+    internalOrder: -1074
+  - slotId: 27
+    slotKey: Root.P_LFoot._3L_Foot
+    slotName: _3L_Foot
+    objectName: _3L_Foot
+    path: UnitRoot/Root/P_LFoot/_3L_Foot
+    parentPath: UnitRoot/Root/P_LFoot
+    depth: 3
+    activeSelf: 1
+    activeInHierarchy: 1
+    rendererEnabled: 1
+    defaultVisible: 1
+    sortingLayerId: 0
+    sortingLayerName: Default
+    sortingOrder: -3
+    color: {r: 1, g: 1, b: 1, a: 1}
+    spriteName: Foot_R
+    spriteAssetPath: Assets/SPUM/Resources/Addons/Legacy/0_Unit/0_Sprite/1_Body/Human_1.png
+    spriteGuid: d24756e433435b249be5737019648d69
+    spriteRectSize: {x: 4, y: 7}
+    spritePivotPixels: {x: 2, y: 3.5}
+    spritePivotNormalized: {x: 0.5, y: 0.5}
+    spriteBoundsSize: {x: 0.125, y: 0.21875}
+    pixelsPerUnit: 32
+    localPosition: {x: 0, y: -0.0625, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    bindPose00: 1
+    bindPose01: 0
+    bindPose02: 0
+    bindPose03: 0
+    bindPose10: 0
+    bindPose11: 1
+    bindPose12: 0
+    bindPose13: 0
+    bindPose20: 0
+    bindPose21: 0
+    bindPose22: 1
+    bindPose23: 0
+    bindPose30: 0.125
+    bindPose31: 0.125
+    bindPose32: 0
+    bindPose33: 1
+    maskInteraction: 0
+    drawOrder: 27
+    internalOrder: -273
+  - slotId: 28
+    slotKey: Root.P_LFoot.P_LCloth._2L_Cloth
+    slotName: _2L_Cloth
+    objectName: _2L_Cloth
+    path: UnitRoot/Root/P_LFoot/P_LCloth/_2L_Cloth
+    parentPath: UnitRoot/Root/P_LFoot/P_LCloth
+    depth: 4
+    activeSelf: 1
+    activeInHierarchy: 1
+    rendererEnabled: 1
+    defaultVisible: 1
+    sortingLayerId: 0
+    sortingLayerName: Default
+    sortingOrder: -2
+    color: {r: 1, g: 1, b: 1, a: 1}
+    spriteName: Left
+    spriteAssetPath: Assets/SPUM/Resources/Addons/Ver300/0_Unit/0_Sprite/5_Pant/New_Pant_05.png
+    spriteGuid: e7d2d469a9a9548bcb468fc5ff5792c1
+    spriteRectSize: {x: 4, y: 7}
+    spritePivotPixels: {x: 2, y: 3.5}
+    spritePivotNormalized: {x: 0.5, y: 0.5}
+    spriteBoundsSize: {x: 0.125, y: 0.21875}
+    pixelsPerUnit: 32
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+    bindPose00: 1
+    bindPose01: 0
+    bindPose02: 0
+    bindPose03: 0
+    bindPose10: 0
+    bindPose11: 1
+    bindPose12: 0
+    bindPose13: 0
+    bindPose20: 0
+    bindPose21: 0
+    bindPose22: 1
+    bindPose23: 0
+    bindPose30: 0.125
+    bindPose31: 0.125
+    bindPose32: 0
+    bindPose33: 1
+    maskInteraction: 0
+    drawOrder: 28
+    internalOrder: -172
+  - slotId: 29
+    slotKey: Shadow.Shadow
+    slotName: Shadow
+    objectName: Shadow
+    path: UnitRoot/Shadow/Shadow
+    parentPath: UnitRoot/Shadow
+    depth: 2
+    activeSelf: 1
+    activeInHierarchy: 1
+    rendererEnabled: 1
+    defaultVisible: 1
+    sortingLayerId: 0
+    sortingLayerName: Default
+    sortingOrder: -50
+    color: {r: 0, g: 0, b: 0, a: 0.56078434}
+    spriteName: Shadow
+    spriteAssetPath: Assets/SPUM/Core/Basic_Resources/Ect/Shadow.png
+    spriteGuid: acb3bfd86ae6c41b084245f578292734
+    spriteRectSize: {x: 128, y: 128}
+    spritePivotPixels: {x: 64, y: 64}
+    spritePivotNormalized: {x: 0.5, y: 0.5}
+    spriteBoundsSize: {x: 10.24, y: 10.24}
+    pixelsPerUnit: 12.5
+    localPosition: {x: 0, y: 0.018000001, z: 0.00015256465}
+    localEulerAngles: {x: -0, y: 0, z: 0}
+    localScale: {x: 0.05, y: 0.015, z: 1}
+    bindPose00: 0.05
+    bindPose01: 0
+    bindPose02: 2.4642847e-11
+    bindPose03: 0
+    bindPose10: 0
+    bindPose11: 0.015
+    bindPose12: 0
+    bindPose13: 0
+    bindPose20: 0
+    bindPose21: 0
+    bindPose22: 1
+    bindPose23: 0
+    bindPose30: 4.3467454e-14
+    bindPose31: 0.018000001
+    bindPose32: 0.00015256465
+    bindPose33: 1
+    maskInteraction: 0
+    drawOrder: 29
+    internalOrder: -4971
+  slots:
+  - slotKey: Root.BodySet.P_Body.P_Back.Back
+    slotName: Back
+    aliasName: backback
+    spriteFolder: Assets/SPUM/Resources/Addons/Ver300/0_Unit/0_Sprite/10_Back
+    sprite: {fileID: 21300000, guid: a8f1ac045d97fcd42930e42c15011574, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    linkedGroupId: -1
+    linkedSubSpriteName: Back
+    exclusiveGroupId: -1
+  - slotKey: Root.BodySet.P_Body.Body
+    slotName: Body
+    aliasName: 
+    spriteFolder: 
+    sprite: {fileID: 9192335604100010203, guid: 9319101edbfea48f58b3eb3a01e16f2a, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    linkedGroupId: 1
+    linkedSubSpriteName: Body
+    exclusiveGroupId: -1
+  - slotKey: Root.BodySet.P_Body.Body.P_ClothBody.ClothBody
+    slotName: ClothBody
+    aliasName: 
+    spriteFolder: 
+    sprite: {fileID: -386983977432367671, guid: 9dc3a3dbad727427780451ecc1627898, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    linkedGroupId: 2
+    linkedSubSpriteName: Body
+    exclusiveGroupId: -1
+  - slotKey: Root.BodySet.P_Body.Body.P_ArmorBody.BodyArmor
+    slotName: BodyArmor
+    aliasName: 
+    spriteFolder: 
+    sprite: {fileID: -6702876299118751804, guid: 1416614edddf54e2bb98c61ab32dc586, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    linkedGroupId: 3
+    linkedSubSpriteName: Body
+    exclusiveGroupId: -1
+  - slotKey: Root.BodySet.P_Body.HeadSet.P_Head.P_Hair.7_Hair
+    slotName: 7_Hair
+    aliasName: hair
+    spriteFolder: Assets/SPUM/Resources/Addons/Legacy/0_Unit/0_Sprite/0_Hair
+    sprite: {fileID: 21300000, guid: 2e66bc6c623514a2b954b63b58c44e2f, type: 3}
+    color: {r: 0.4431373, g: 0.14901961, b: 0.14901961, a: 1}
+    linkedGroupId: -1
+    linkedSubSpriteName: 7_Hair
+    exclusiveGroupId: -1
+  - slotKey: Root.BodySet.P_Body.HeadSet.P_Head.P_Head.5_Head
+    slotName: 5_Head
+    aliasName: 
+    spriteFolder: 
+    sprite: {fileID: -7148242121876300252, guid: 9319101edbfea48f58b3eb3a01e16f2a, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    linkedGroupId: 1
+    linkedSubSpriteName: Head
+    exclusiveGroupId: -1
+  - slotKey: Root.BodySet.P_Body.HeadSet.P_Head.P_Mustache.6_FaceHair
+    slotName: 6_FaceHair
+    aliasName: faceHair
+    spriteFolder: Assets/SPUM/Resources/Addons/Legacy/0_Unit/0_Sprite/1_FaceHair
+    sprite: {fileID: 21300000, guid: bf396ee22a706a24dba8f20538815062, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    linkedGroupId: -1
+    linkedSubSpriteName: 6_FaceHair
+    exclusiveGroupId: -1
+  - slotKey: Root.BodySet.P_Body.HeadSet.P_Head.P_Eye.P_REye.PivotBack.Back
+    slotName: Back
+    aliasName: 
+    spriteFolder: 
+    sprite: {fileID: 3278689021492206295, guid: 317140fbba14844a3b93f39a688ff60a, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    linkedGroupId: 4
+    linkedSubSpriteName: Back
+    exclusiveGroupId: -1
+  - slotKey: Root.BodySet.P_Body.HeadSet.P_Head.P_Eye.P_REye.PivotFront.Front
+    slotName: Front
+    aliasName: 
+    spriteFolder: 
+    sprite: {fileID: -1768198379662571117, guid: 317140fbba14844a3b93f39a688ff60a, type: 3}
+    color: {r: 0.4431373, g: 0.14901961, b: 0.14901961, a: 1}
+    linkedGroupId: 4
+    linkedSubSpriteName: Front
+    exclusiveGroupId: -1
+  - slotKey: Root.BodySet.P_Body.HeadSet.P_Head.P_Eye.P_LEye.PivotBack.Back
+    slotName: Back
+    aliasName: 
+    spriteFolder: 
+    sprite: {fileID: 3278689021492206295, guid: 317140fbba14844a3b93f39a688ff60a, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    linkedGroupId: 4
+    linkedSubSpriteName: Back
+    exclusiveGroupId: -1
+  - slotKey: Root.BodySet.P_Body.HeadSet.P_Head.P_Eye.P_LEye.PivotFront.Front
+    slotName: Front
+    aliasName: 
+    spriteFolder: 
+    sprite: {fileID: -1768198379662571117, guid: 317140fbba14844a3b93f39a688ff60a, type: 3}
+    color: {r: 0.4431373, g: 0.14901961, b: 0.14901961, a: 1}
+    linkedGroupId: 4
+    linkedSubSpriteName: Front
+    exclusiveGroupId: -1
+  - slotKey: Root.BodySet.P_Body.HeadSet.P_Head.P_Eye.P_RClose.PivotFront.Front
+    slotName: Front
+    aliasName: 
+    spriteFolder: 
+    sprite: {fileID: 62125576, guid: 36f759892f0769b42aeec738b5a2fce9, type: 3}
+    color: {r: 0.2784314, g: 0.101960786, b: 0.101960786, a: 1}
+    linkedGroupId: 5
+    linkedSubSpriteName: Front
+    exclusiveGroupId: -1
+  - slotKey: Root.BodySet.P_Body.HeadSet.P_Head.P_Eye.P_LClose.PivotFront.Front
+    slotName: Front
+    aliasName: 
+    spriteFolder: 
+    sprite: {fileID: 62125576, guid: 36f759892f0769b42aeec738b5a2fce9, type: 3}
+    color: {r: 0.2784314, g: 0.101960786, b: 0.101960786, a: 1}
+    linkedGroupId: 5
+    linkedSubSpriteName: Front
+    exclusiveGroupId: -1
+  - slotKey: Root.BodySet.P_Body.HeadSet.P_Head.P_Helmet.11_Helmet1
+    slotName: 11_Helmet1
+    aliasName: helmet1
+    spriteFolder: Assets/SPUM/Resources/Addons/Legacy/0_Unit/0_Sprite/4_Helmet
+    sprite: {fileID: 0}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    linkedGroupId: -1
+    linkedSubSpriteName: 11_Helmet1
+    exclusiveGroupId: -1
+  - slotKey: Root.BodySet.P_Body.HeadSet.P_Head.P_Helmet.12_Helmet2
+    slotName: 12_Helmet2
+    aliasName: helmet2
+    spriteFolder: Assets/SPUM/Resources/Addons/Legacy/0_Unit/0_Sprite/4_Helmet
+    sprite: {fileID: 21300000, guid: e18834699727342f7b28af1c655acc6f, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    linkedGroupId: -1
+    linkedSubSpriteName: 12_Helmet2
+    exclusiveGroupId: -1
+  - slotKey: Root.BodySet.P_Body.ArmSet.ArmL.P_LArm.P_Arm.20_L_Arm
+    slotName: 20_L_Arm
+    aliasName: 
+    spriteFolder: 
+    sprite: {fileID: -2679891834695985245, guid: 9319101edbfea48f58b3eb3a01e16f2a, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    linkedGroupId: 1
+    linkedSubSpriteName: Arm_L
+    exclusiveGroupId: -1
+  - slotKey: Root.BodySet.P_Body.ArmSet.ArmL.P_LArm.P_Arm.20_L_Arm.P_LCArm.21_LCArm
+    slotName: 21_LCArm
+    aliasName: 
+    spriteFolder: 
+    sprite: {fileID: -3501919001399007183, guid: 9dc3a3dbad727427780451ecc1627898, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    linkedGroupId: 2
+    linkedSubSpriteName: Left
+    exclusiveGroupId: -1
+  - slotKey: Root.BodySet.P_Body.ArmSet.ArmL.P_LArm.P_Arm.20_L_Arm.P_Shoulder.25_L_Shoulder
+    slotName: 25_L_Shoulder
+    aliasName: 
+    spriteFolder: 
+    sprite: {fileID: 8032732682986528544, guid: 1416614edddf54e2bb98c61ab32dc586, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    linkedGroupId: 3
+    linkedSubSpriteName: Left
+    exclusiveGroupId: -1
+  - slotKey: Root.BodySet.P_Body.ArmSet.ArmL.P_LArm.P_Weapon.L_Weapon
+    slotName: L_Weapon
+    aliasName: lweapon
+    spriteFolder: Assets/SPUM/Resources/Addons/Legacy/0_Unit/0_Sprite/6_Weapons
+    sprite: {fileID: 21300000, guid: df96032537d4c482e9b20c674c73dc45, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    linkedGroupId: -1
+    linkedSubSpriteName: L_Weapon
+    exclusiveGroupId: -1
+  - slotKey: Root.BodySet.P_Body.ArmSet.ArmL.P_LArm.P_Shield.L_Shield
+    slotName: L_Shield
+    aliasName: lshield
+    spriteFolder: Assets/SPUM/Resources/Addons/Ver300/0_Unit/0_Sprite/9_Shiled
+    sprite: {fileID: 0}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    linkedGroupId: -1
+    linkedSubSpriteName: L_Shield
+    exclusiveGroupId: -1
+  - slotKey: Root.BodySet.P_Body.ArmSet.ArmR.P_RArm.P_Arm.-20_R_Arm
+    slotName: -20_R_Arm
+    aliasName: 
+    spriteFolder: 
+    sprite: {fileID: -3786673782929868589, guid: 9319101edbfea48f58b3eb3a01e16f2a, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    linkedGroupId: 1
+    linkedSubSpriteName: Arm_R
+    exclusiveGroupId: -1
+  - slotKey: Root.BodySet.P_Body.ArmSet.ArmR.P_RArm.P_Arm.-20_R_Arm.P_RCArm.-19_RCArm
+    slotName: -19_RCArm
+    aliasName: 
+    spriteFolder: 
+    sprite: {fileID: 6712671587012831569, guid: 9dc3a3dbad727427780451ecc1627898, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    linkedGroupId: 2
+    linkedSubSpriteName: Right
+    exclusiveGroupId: -1
+  - slotKey: Root.BodySet.P_Body.ArmSet.ArmR.P_RArm.P_Arm.-20_R_Arm.P_Shoulder.-15_R_Shoulder
+    slotName: -15_R_Shoulder
+    aliasName: 
+    spriteFolder: 
+    sprite: {fileID: -3380439360112706912, guid: 1416614edddf54e2bb98c61ab32dc586, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    linkedGroupId: 3
+    linkedSubSpriteName: Right
+    exclusiveGroupId: -1
+  - slotKey: Root.BodySet.P_Body.ArmSet.ArmR.P_RArm.P_Weapon.R_Weapon
+    slotName: R_Weapon
+    aliasName: rweapon
+    spriteFolder: Assets/SPUM/Resources/Addons/Ver300/0_Unit/0_Sprite/8_Weapons
+    sprite: {fileID: 21300000, guid: 27428f826bad840f9bdbc88d5dcbfa6c, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    linkedGroupId: -1
+    linkedSubSpriteName: R_Weapon
+    exclusiveGroupId: -1
+  - slotKey: Root.BodySet.P_Body.ArmSet.ArmR.P_RArm.P_Shield.R_Shield
+    slotName: R_Shield
+    aliasName: rshield
+    spriteFolder: Assets/SPUM/Resources/Addons/Ver300/0_Unit/0_Sprite/9_Shiled
+    sprite: {fileID: 21300000, guid: e03eed09328f2413d8a7cf2a8e5d1b94, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    linkedGroupId: -1
+    linkedSubSpriteName: R_Shield
+    exclusiveGroupId: -1
+  - slotKey: Root.P_RFoot._12R_Foot
+    slotName: _12R_Foot
+    aliasName: 
+    spriteFolder: 
+    sprite: {fileID: -8401161348413801594, guid: 9319101edbfea48f58b3eb3a01e16f2a, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    linkedGroupId: 1
+    linkedSubSpriteName: Foot_R
+    exclusiveGroupId: -1
+  - slotKey: Root.P_RFoot.P_RCloth._11R_Cloth
+    slotName: _11R_Cloth
+    aliasName: 
+    spriteFolder: 
+    sprite: {fileID: 4488402338830534301, guid: c8a4db297c0ce4a38abd3c1d2da37e98, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    linkedGroupId: 6
+    linkedSubSpriteName: Right
+    exclusiveGroupId: -1
+  - slotKey: Root.P_LFoot._3L_Foot
+    slotName: _3L_Foot
+    aliasName: 
+    spriteFolder: 
+    sprite: {fileID: -3345892919915003909, guid: 9319101edbfea48f58b3eb3a01e16f2a, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    linkedGroupId: 1
+    linkedSubSpriteName: Foot_L
+    exclusiveGroupId: -1
+  - slotKey: Root.P_LFoot.P_LCloth._2L_Cloth
+    slotName: _2L_Cloth
+    aliasName: 
+    spriteFolder: 
+    sprite: {fileID: 2710371681560268619, guid: c8a4db297c0ce4a38abd3c1d2da37e98, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    linkedGroupId: 6
+    linkedSubSpriteName: Left
+    exclusiveGroupId: -1
+  - slotKey: Shadow.Shadow
+    slotName: Shadow
+    aliasName: shadow
+    spriteFolder: 
+    sprite: {fileID: 21300000, guid: acb3bfd86ae6c41b084245f578292734, type: 3}
+    color: {r: 0, g: 0, b: 0, a: 0.56078434}
+    linkedGroupId: -1
+    linkedSubSpriteName: Shadow
+    exclusiveGroupId: -1
+  groups:
+  - groupId: 1
+    groupName: bodyall
+    groupSprite: {fileID: -2679891834695985245, guid: 9319101edbfea48f58b3eb3a01e16f2a, type: 3}
+    groupSpritePath: Assets/SPUM/Resources/Addons/Legacy/0_Unit/0_Sprite/1_Body/Elf_2.png
+    groupSpriteFolder: Assets/SPUM/Resources/Addons/Legacy/0_Unit/0_Sprite/1_Body
+  - groupId: 2
+    groupName: cloth
+    groupSprite: {fileID: -386983977432367671, guid: 9dc3a3dbad727427780451ecc1627898, type: 3}
+    groupSpritePath: Assets/SPUM/Resources/Addons/Legacy/0_Unit/0_Sprite/2_Cloth/Cloth_11.png
+    groupSpriteFolder: Assets/SPUM/Resources/Addons/Legacy/0_Unit/0_Sprite/2_Cloth
+  - groupId: 3
+    groupName: armor
+    groupSprite: {fileID: -6702876299118751804, guid: 1416614edddf54e2bb98c61ab32dc586, type: 3}
+    groupSpritePath: Assets/SPUM/Resources/Addons/Legacy/0_Unit/0_Sprite/5_Armor/Armor_4.png
+    groupSpriteFolder: Assets/SPUM/Resources/Addons/Legacy/0_Unit/0_Sprite/5_Armor
+  - groupId: 4
+    groupName: eye_open
+    groupSprite: {fileID: 3278689021492206295, guid: 317140fbba14844a3b93f39a688ff60a, type: 3}
+    groupSpritePath: Assets/SPUM/Resources/Addons/Legacy/0_Unit/0_Sprite/0_Eye/Eye1.png
+    groupSpriteFolder: Assets/SPUM/Resources/Addons/Legacy/0_Unit/0_Sprite/0_Eye
+  - groupId: 5
+    groupName: eye_close
+    groupSprite: {fileID: -659639939, guid: 36f759892f0769b42aeec738b5a2fce9, type: 3}
+    groupSpritePath: Assets/SPUM/Resources/Addons/Legacy/0_Unit/0_Sprite/0_EyeClose/Eye_Close.png
+    groupSpriteFolder: Assets/SPUM/Resources/Addons/Legacy/0_Unit/0_Sprite/0_EyeClose
+  - groupId: 6
+    groupName: pant
+    groupSprite: {fileID: 2710371681560268619, guid: c8a4db297c0ce4a38abd3c1d2da37e98, type: 3}
+    groupSpritePath: Assets/SPUM/Resources/Addons/Legacy/0_Unit/0_Sprite/3_Pant/Foot_3.png
+    groupSpriteFolder: Assets/SPUM/Resources/Addons/Legacy/0_Unit/0_Sprite/3_Pant
+  exclusiveGroups: []
